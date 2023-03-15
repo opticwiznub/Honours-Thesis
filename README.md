@@ -1,13 +1,14 @@
-# Steven: Quantile Methods for Complex Numbers
+# Justin: Graphical Neural Networks
 
 ...
 
 ---
 
-Contact: steven.lim@student.unsw.edu.au
+Email: z5259616@student.unsw.edu.au
+Mobile: 0426678953
 
 ---
-### Links
-- notes for most recent meeting: ...
-- thesis in overleaf: https://www.overleaf.com/read/wbmrcpgjtrdf
 
+### Links
+
+- notes for most recent meeting: ...
