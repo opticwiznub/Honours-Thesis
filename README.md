@@ -4,8 +4,8 @@
 
 ---
 
-Email: z5259616@student.unsw.edu.au
-Mobile: 0426678953
+- Email: z5259616@student.unsw.edu.au
+- Mobile: 0426678953
 
 ---
 
