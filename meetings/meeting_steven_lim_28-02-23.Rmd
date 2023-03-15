@@ -1,0 +1,71 @@
+---
+title: "Meeting report for Steven"
+subtitle: "Honours student"
+date: "**Meeting Date/Time:** 28-02-2023 / 17-18:00 AEST ; **Meeting Location:** Teams"
+
+
+date_previous_meeting: "21-02-2023"
+output: 
+  pdf_document:
+    keep_md: true
+    keep_tex: true
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}\makeatletter\let\ps@plain\ps@fancy\makeatother
+  - \fancyhead[L]{`r gsub("_", "\U005C\U005C\U005F", knitr::current_input())`}
+  - \fancyhead[R]{`r date()`}
+bibliography: bibliography.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<!---
+_Instructions:_ I do **not** want to receive DOC files, only PDF files. You should use LaTeX or Markdown to create this document. Produce only one PDF file (2 pages max). The name of the PDF file you will send me by email should be `meeting_FORENAME_SURNAME_xx-yy-zzzz.pdf`, where `xx-yy-zzzz` is the date of our next scheduled meeting. Note that I want to receive the PDF file two business days before our next meeting, each time. Put as many details as possible in the Agenda. Upload also this file (Rmd + associated PDF) on your Github page. See https://www.atlassian.com/en/software/confluence/templates/meeting-notes for a short guide on how to efficiently plan and organise a meeting.
+-->
+
+## 1. Agenda for today's meeting (PURPOSE)
+
+### Attendees
+
+People who will attend:
+
+- _Pierre Lafaye De Micheaux_
+- _Steven Lim_ (note taker)
+- _Yanan Fan_
+
+### Meeting Goals
+
+- Discussing an approach to a literature review 
+- Discussing the article(s) I've read
+
+### Points to be discussed
+
+| **Allotted time**  | **Item**   | **Facilitator** | **Description**   | 
+|-------------------:|------------|-----------------|-------------------|
+| 5 min              | GitHub            | Steven                | Brief overview of what I've set up on GitHub - send out invites                  |
+| 15 min             | Discussing some papers I've read           | Steven                | Main focus will be Nonparametric Statistical Data Modelling (Parzen, 1979) [**link**](https://github.com/ribbon-s/Honours-Steven/blob/main/papers/quantile_methods/parzen1979.pdf)                  |
+| 10 min             | Literature Review           | Steven               | Presenting a rough scaffold I have for the literature review, which I'll be using as I read through articles |
+| 5 min              | Determining goals + deliverables for next week           | -                |                   |
+
+
+### Other Information
+
+## 2. Work already completed before this meeting
+
+- [x] Setting up GitHub + subfolders and files
+
+## 3. Planned work after this meeting
+
+- [ ] -
+
+## 4. Minutes from previous meeting (`r rmarkdown::metadata$date_previous_meeting`)
+
+- Admin: setting up meeting reports
+- Admin: setting up GitHub
+- Discussed the basic workflow of research and the overall product of Honours research
+
+
