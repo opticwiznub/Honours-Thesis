@@ -248,11 +248,14 @@ Modern models have become increasingly more complex in part due to the increasin
 worldwide to train these models on. (Talk more about the math behind these models? Stochastic Differential models or talk about a few of the main models in use today?)
 
 {\noindent} In recent years, Graph neural networks have become the premier method of processing data with non-cartesian structure. Much of this data exists in the world
-in applications such as chemical analysis, social networks and link prediction (Insert references for each from reading).       
+in applications such as chemical analysis, social networks and link prediction (Insert references for each from reading). The main feature of GNNs is the message passing framework,
+where information from features on each node is passed to neighbouring nodes then aggregated and embedded. This is then propagated through a neural network structure to
+perform a range of tasks on the entire graph, individual nodes and edges.        
 
 {\section{Problem Formulation}}\label{problem formulation}
 We define a graph as ${\mathcal{G}} = ({\mathcal{V}}, \textbf{A})$, where $\mathcal{V}$ represents a set of verticies which contains a list of nodes
-$\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains 
+$\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains information on the graph topology. If an edge exists
+between two node $v_i$ and $v_j$, then $\textbf{A}_{ij} = 1$ else, $\textbf{A}_{ij} = 0$. 
 
 
 % Given a sequence $\{x_n\}_{n=1}^{\infty}$ in a Banach space $\X$,
