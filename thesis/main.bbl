@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+
+\bibitem{deng-deep-learning}
+Li~Deng and Dong Yu.
+\newblock 2014.
+
+\bibitem{kipf2017semisupervised}
+Thomas~N. Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks,
+  2017.
+
+\end{thebibliography}

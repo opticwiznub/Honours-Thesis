@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  21 JUL 2023 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  21 JUL 2023 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -34,6 +34,10 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \chaprule=\skip50
 \ATchapskip=\skip51
 \@chapwidth=\skip52
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 ) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
@@ -55,11 +59,6 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip54
 \thm@headsep=\skip55
 \dth@everypar=\toks23
-) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip56
@@ -124,6 +123,11 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
@@ -156,20 +160,20 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
@@ -192,14 +196,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <unsw-crest.jpg, id=1, 147.6717pt x 154.176pt>
 File: unsw-crest.jpg Graphic file (type jpg)
 <use unsw-crest.jpg>
-Package pdftex.def Info: unsw-crest.jpg  used on input line 167.
+Package pdftex.def Info: unsw-crest.jpg  used on input line 169.
 (pdftex.def)             Requested size: 142.26378pt x 148.54362pt.
  [1
 
 {C:/Users/jqcla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./unsw-crest.jpg>] [0
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
@@ -207,29 +211,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
 ] [2] [2
 
-] [3] [3]
-No file main.toc.
+] [3] [3] (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-[4
+ [4
 
 ] [0
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 263.
-(C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 263.
- (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 263.
- (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [1]
+[1]
 Chapter 2.
 [2
 
@@ -239,819 +243,29 @@ Chapter 3.
 
 ]
 Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
 [4
 
-]
+] (main.bbl) [5
 
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:345: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.345 {BBG}
-            Benzinger, H., Berkson, E. and Gillespie, T.A.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:345: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.345 {BBG}
-            Benzinger, H., Berkson, E. and Gillespie, T.A.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:345: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.345 {BBG}
-            Benzinger, H., Berkson, E. and Gillespie, T.A.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:350: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.350 {BG Fourier}
-                   Berkson, E. and Gillespie, T.A.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:350: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.350 {BG Fourier}
-                   Berkson, E. and Gillespie, T.A.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:350: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.350 {BG Fourier}
-                   Berkson, E. and Gillespie, T.A.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:355: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.355 {BG Spectral}
-                    Berkson, E., and Gillespie, T.A.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:355: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.355 {BG Spectral}
-                    Berkson, E., and Gillespie, T.A.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:355: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.355 {BG Spectral}
-                    Berkson, E., and Gillespie, T.A.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:360: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 {BGM}
-            Berkson, E. Gillespie, T.A. and Muhly, P.S.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:360: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.360 {BGM}
-            Berkson, E. Gillespie, T.A. and Muhly, P.S.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:360: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.360 {BGM}
-            Berkson, E. Gillespie, T.A. and Muhly, P.S.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:365: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 {Bourgain telaviv}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:365: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.365 {Bourgain telaviv}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:365: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.365 {Bourgain telaviv}
-                        
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:371: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.371 {Bourgain}
-                 Bourgain, J.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:371: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.371 {Bourgain}
-                 Bourgain, J.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:371: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.371 {Bourgain}
-                 Bourgain, J.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:377: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.377 {Bourg}
-              Bourgain, J.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:377: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.377 {Bourg}
-              Bourgain, J.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:377: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.377 {Bourg}
-              Bourgain, J.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:383: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 {Burk3}
-              Burkholder, D.L.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:383: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.383 {Burk3}
-              Burkholder, D.L.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:383: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.383 {Burk3}
-              Burkholder, D.L.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:389: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.389 {Burk2}
-              Burkholder, D.L.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:389: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.389 {Burk2}
-              Burkholder, D.L.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:389: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.389 {Burk2}
-              Burkholder, D.L.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:397: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.397 {Burk4}
-              Burkholder, D.L.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:397: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.397 {Burk4}
-              Burkholder, D.L.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:397: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.397 {Burk4}
-              Burkholder, D.L.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:402: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.402 {Burk1}
-              Burkholder, D.L.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:402: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.402 {Burk1}
-              Burkholder, D.L.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:402: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.402 {Burk1}
-              Burkholder, D.L.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:407: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.407 {Coifman}
-                Coifman R.R., and Weiss, G.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:407: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.407 {Coifman}
-                Coifman R.R., and Weiss, G.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:407: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.407 {Coifman}
-                Coifman R.R., and Weiss, G.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:413: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.413 {Con}
-            Conway, J.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:413: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.413 {Con}
-            Conway, J.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:413: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.413 {Con}
-            Conway, J.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:418: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.418 {Dowson}
-               Dowson, H.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:418: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.418 {Dowson}
-               Dowson, H.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:418: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.418 {Dowson}
-               Dowson, H.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:423: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.423 {Doust}
-             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:423: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.423 {Doust}
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:423: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.423 {Doust}
-             
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:429: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.429 {DG}
-           Doust, I.  and Gillespie, T. A.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:429: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.429 {DG}
-           Doust, I.  and Gillespie, T. A.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:429: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.429 {DG}
-           Doust, I.  and Gillespie, T. A.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:434: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.434 {Dun}
-            Dunford, N., and Schwartz, J.T.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:434: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.434 {Dun}
-            Dunford, N., and Schwartz, J.T.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:434: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.434 {Dun}
-            Dunford, N., and Schwartz, J.T.
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:439: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 {Gaudry}
-               Edwards, R.E., and Gaudry, G.I.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:439: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.439 {Gaudry}
-               Edwards, R.E., and Gaudry, G.I.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:439: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.439 {Gaudry}
-               Edwards, R.E., and Gaudry, G.I.,
-I'm forgetting what you said and using zero instead.
-
-
-Overfull \hbox (0.20647pt too wide) in paragraph at lines 439--442
-[]\OT1/cmr/m/n/12 Edwards, R.E., and Gaudry, G.I., \OT1/cmr/m/it/12 Littlewood--Paley and Mul-ti-plier The-ory\OT1/cmr/m/n/12 , Springer-
- []
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:444: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.444 {Katznelson}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:444: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.444 {Katznelson}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:444: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.444 {Katznelson}
-                  
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:450: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.450 {Gohberg}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:450: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.450 {Gohberg}
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:450: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.450 {Gohberg}
-               
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:457: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.457 {Gowers}
-               Gowers, W. T., and Maurey, B.,
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:457: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.457 {Gowers}
-               Gowers, W. T., and Maurey, B.,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:457: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.457 {Gowers}
-               Gowers, W. T., and Maurey, B.,
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:462: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.462 {Lind}
-            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:462: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.462 {Lind}
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:462: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.462 {Lind}
-            
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:468: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.468 {Pedersen}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:468: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.468 {Pedersen}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:468: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.468 {Pedersen}
-                
-I'm forgetting what you said and using zero instead.
-
-[5
-
-]
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:474: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.474 {Stein1}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:474: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.474 {Stein1}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:474: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.474 {Stein1}
-              
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:481: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.481 {Stein}
-             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:481: Undefined control sequence.
-<argument> \@listctr 
-                     
-l.481 {Stein}
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:481: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.481 {Stein}
-             
-I'm forgetting what you said and using zero instead.
-
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:486: LaTeX Error: \begin{document} ended by \end{thebibliography}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.486 \end{thebibliography}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/jqcla/Documents/GitHub/Honours-Thesis/thesis/main.tex:486: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.486 \end{thebibliography}
-                           
-Things are pretty mixed up, but I think the worst is over.
-
-[6] (main.aux)
+] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2937 strings out of 475550
- 42788 string characters out of 5762533
- 1928238 words of memory out of 5000000
- 24132 multiletter control sequences out of 15000+600000
- 566143 words of font info for 67 fonts, out of 8000000 for 9000
+ 3023 strings out of 475550
+ 44387 string characters out of 5762533
+ 1924238 words of memory out of 5000000
+ 24211 multiletter control sequences out of 15000+600000
+ 565796 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,6n,65p,1111b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (16 pages, 823823 bytes).
+ 57i,6n,65p,283b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (15 pages, 810618 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

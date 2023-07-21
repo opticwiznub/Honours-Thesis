@@ -13,9 +13,11 @@
  
 \documentclass[honours,12pt]{unswthesis}
 \linespread{1}
+\usepackage{cite}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsthm}
+\usepackage{amsmath}
 \usepackage{latexsym,amsmath}
 \usepackage{graphicx}
 \usepackage{afterpage}
@@ -259,14 +261,6 @@ in applications such as chemical analysis, social networks and link prediction (
 where information from features on each node is passed to neighbouring nodes then aggregated and embedded. This is then propagated through a neural network structure to
 perform a range of tasks on the entire graph, individual nodes and edges.        
 
-{\section{Problem Formulation}}\label{problem-formulation}
-We define a graph as ${\mathcal{G}} = ({\mathcal{V}}, \textbf{A})$, where $\mathcal{V}$ represents a set of verticies which contains a list of nodes
-$\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains information on the graph topology. If an edge exists
-between two node $v_i$ and $v_j$, then $\textbf{A}_{ij} = 1$ else, $\textbf{A}_{ij} = 0$. Each node has a {p}-dimensional feature vector ${x_i} \in \mathbb{R}^{p}$
-which describes some information about the node in the graph. By combining all ${n}$ feature vectors from all nodes, we have a feature matrix
-$\textbf{X} \in \mathbb{R}^{n\times p}$. The graph also has a regression target ${Y} \in \mathbb{R}$ which refers to the historical temperature that each model from the
-graph is attempting to predict.
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -290,7 +284,7 @@ behind neural networks and the extensions towards graph neural networks.
 \section{Neural Networks}\label{nn}
 %%%%%%%%%%%%
 Traditional machine learning techiques generally require meaningful data cleaning and feature creation which was costly to develop and often had many errors.
-The advent of deep learning allowed algorithms to progressively extract higher-level features from raw data. yeet
+The advent of deep learning allowed algorithms to progressively extract higher-level features from raw data.\cite{deng-deep-learning} The MLP 
 
 
 %%%%%%%%%%%%
@@ -314,179 +308,45 @@ The advent of deep learning allowed algorithms to progressively extract higher-l
 
 %%%%%%%%%%%%%%%%
 \section{Dataset}\label{data}
+The datasets used are from the CIMP6 scenario runs made available on the KNMI Climate Explorer website. The KNMI is part of the
+World Meteoriological Organization (WMO)\cite{}. The scenario runs include monthly predictions for temperature, min temperature, max temperature
+precipitation, radiation and pressure all over the globe in a 192x144 grid between 1850-2100 for 40 different models. For simplicity and brievity, 
+this was filtered to just temperature during the 1960-1970 period in just Australia. 
 %%%%%%%%%%%%%%%%
 
+{\section{Problem Formulation}}\label{problem-formulation}
+We define a graph as ${\mathcal{G}} = ({\mathcal{V}}, \textbf{A})$, where $\mathcal{V}$ represents a set of verticies which contains a list of nodes
+$\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains information on the graph topology. If an edge exists
+between two node $v_i$ and $v_j$, then $\textbf{A}_{ij} = 1$ else, $\textbf{A}_{ij} = 0$. We also define the degree matrix as $\mathbf{D} = \sum_{j}A_{ij}$
+where each entry on the diagonal is equal to the row sum of the adjacency matrix $\textbf{A}$.  
+Each node has a {p}-dimensional feature vector ${x_i} \in \mathbb{R}^{p}$
+which describes some information about the node in the graph. By combining all ${n}$ feature vectors from all nodes, we have a feature matrix
+$\textbf{X} \in \mathbb{R}^{n\times p}$. The graph also has a regression target ${Y} \in \mathbb{R}$ which refers to the historical temperature that each model from the
+graph is attempting to predict. As mentioned earlier, other variables such as precipitation, pressure and radiation are available but for simplicity, just temperature
+is currently being used. The two-layer GNN from \cite{kipf2017semisupervised} can be expressed as
 
+\begin{equation}
+f(\mathbf{A, X}) = \sigma_2( \mathbf{ \hat{A} }_2 \sigma_1 (\mathbf{ \hat{A} }_1 \mathbf{X} W^{(1)}) W^{(1)})
+\end{equation}
 
+\noindent where $\sigma_1(.)$ and $\sigma_2(.)$ are an activation function such as ReLU, $\hat{A} = \tilde{D}^{-1/2} (A + I) \tilde{D}^{-1/2}$
+The final regression problem can be formulated as
+
+\begin{equation}
+f : L \times X \rightarrow Y
+\end{equation}
+
+\noindent where $f$ denotes the learning function, $L$ the graph, $X$ denotes the time series input and $Y$ the regression target.
 
 \chapter{Conclusion}\label{ccl}
-
-In mathematics, certain kinds of mistaken proof are often exhibited, and sometimes collected, as illustrations of a concept of mathematical fallacy. There is a distinction between a simple mistake and a mathematical fallacy in a proof: a mistake in a proof leads to an invalid proof just in the same way, but in the best-known examples of mathematical fallacies, there is some concealment in the presentation of the proof. For example, the reason validity fails may be a division by zero that is hidden by algebraic notation. There is a striking quality of the mathematical fallacy: as typically presented, it leads not only to an absurd result, but does so in a crafty or clever way. Therefore these fallacies, for pedagogic reasons, usually take the form of spurious proofs of obvious contradictions. Although the proofs are flawed, the errors, usually by design, are comparatively subtle, or designed to show that certain steps are conditional, and should not be applied in the cases that are the exceptions to the rules. \\
-
-\noindent The traditional way of presenting a mathematical fallacy is to give an invalid step of deduction mixed in with valid steps, so that the meaning of fallacy is here slightly different from the logical fallacy. The latter applies normally to a form of argument that is not a genuine rule of logic, where the problematic mathematical step is typically a correct rule applied with a tacit wrong assumption. Beyond pedagogy, the resolution of a fallacy can lead to deeper insights into a subject (such as the introduction of Pasch's axiom of Euclidean geometry and the five color theorem of graph theory). Pseudaria, an ancient lost book of false proofs, is attributed to Euclid. \\
-
-\noindent Mathematical fallacies exist in many branches of mathematics. In elementary algebra, typical examples may involve a step where division by zero is performed, where a root is incorrectly extracted or, more generally, where different values of a multiple valued function are equated. Well-known fallacies also exist in elementary Euclidean geometry and calculus.
-
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \clearpage
 \addcontentsline{toc}{chapter}{References}
-\bibliographystyle{unswthesis}
-% \bibliography{bibliography}
-% \begin{thebibliography}{999}
-
-\bibitem
-{BBG} Benzinger, H., Berkson, E. and Gillespie, T.A.,
-Spectral families of projections, semigroups, and differential operators,
-\textit{Tran. Amer. Math. Soc.} \textbf{275} (1983), 431--475.
-
-\bibitem
-{BG Fourier} Berkson, E. and Gillespie, T.A.,
-Fourier series criteria for operator decomposability,
-\textit{Integral Equations Operator Theory} \textbf{9} (1986), 767--789.
-
-\bibitem
-{BG Spectral} Berkson, E., and Gillespie, T.A.,
-Spectral decompositions and harmonic analysis on UMD spaces,
-\textit{Studia Mathematica} \textbf{112}(1) (1994), 12--49.
-
-\bibitem
-{BGM} Berkson, E. Gillespie, T.A. and Muhly, P.S.,
-Abstract spectral decompositions guaranteed by the Hilbert transform,
-\textit{Proc. London Math. Soc. (3)} \textbf{53} (1986), 489--517.
-
-\bibitem
-{Bourgain telaviv} 
-Bourgain, J., {\em Martingale transforms and geometry of Banach spaces},
-Israel seminar on geometrical aspects of functional analysis
-(1983/84), XIV, 16 pp., Tel Aviv Univ., Tel Aviv, 1984.
-
-\bibitem
-{Bourgain} Bourgain, J.,
-Some remarks on Banach spaces in which martingale difference sequences are
-unconditional,
-\textit{Ark. Mat.} \textbf{21} (1983), 163--168.
-
-\bibitem
-{Bourg} Bourgain, J.,
-Vector-valued singular integrals and the $H^1$-BMO duality,
-\textit{Probability Theory and Harmonic Analysis} (ed. Chao, J. A.) (1986), 
-1--19.
-
-\bibitem
-{Burk3} Burkholder, D.L.,
-A geometrical characterisation of Banach spaces in which martingale difference
-sequences are unconditional,
-\textit{Ann. Probability} \textbf{9} (1981), 997--1011.
-
-\bibitem
-{Burk2} Burkholder, D.L.,
-A geometric condition that implies the existence of certain singular integrals
-of Banach-space valued functions,
-\textit{Proceedings of Conference on Harmonic Analysis in Honor of Antoni
-Zygmund} (Chicago, Illinois, 1981), Wadsworth Publishers: Belmont,
-1983, pp. 270--286.
-
-\bibitem
-{Burk4} Burkholder, D.L.,
-Martingales and Fourier analysis in Banach spaces,
-\textit{Lecture Notes in Mathematics} \textbf{1206} (1986), 61--108.
-
-\bibitem
-{Burk1} Burkholder, D.L.,
-Martingale transforms,
-\textit{Ann. Math. Statist.} \textbf{37} (1966), 1494--1504.
-
-\bibitem
-{Coifman} Coifman R.R., and Weiss, G.,
-\textit{Transference methods in analysis},
-Regional Conference Series in Mathematics 31,
-Amer. Math. Soc., Providence, R.I., 1977.
-
-\bibitem
-{Con} Conway, J.,
-\textit{A Course in Functional Analysis},
-Springer-Verlag: New York, 1985.
-
-\bibitem
-{Dowson} Dowson, H.,
-\textit{Spectral theory of linear operators},
-London Math. Soc. Monographs, No. 12. Academic Press: New York, 1978.
-
-\bibitem
-{Doust} 
-Doust, I., Norms of $0$-$1$ matrices in $\CC_p$,  pp 50-55, Proc.
-Centre Math. Appl. Austral. Nat. Univ., 39, Austral. Nat. Univ.,
-Canberra, 2000.
-
-\bibitem
-{DG} Doust, I.  and Gillespie, T. A.,
-Schur multipliers on $\CC_p$ spaces,
-in preparation.
-
-\bibitem
-{Dun} Dunford, N., and Schwartz, J.T.
-\textit{Linear operators I: General theory},
-Pure and Applied Mathematics 7. Interscience: New York, 1958.
-
-\bibitem
-{Gaudry} Edwards, R.E., and Gaudry, G.I.,
-\textit{Littlewood--Paley and Multiplier Theory},
-Springer-Verlag: Berlin, 1977.
-
-\bibitem
-{Katznelson}
-Katznelson, Y.,
-\textit{An introduction to harmonic analysis},
-Second corrected edition, Dover: New York, 1976.
-
-\bibitem
-{Gohberg}
-Gohberg, I.C., and Kre\u{\i}n, M. G.,
-\textit{Introduction to the theory of linear nonselfadjoint operators},
-Translations of Mathematical Monographs, Vol. 18, Amer. Math. Soc.,
-Providence, R.I., 1969.
-
-\bibitem
-{Gowers} Gowers, W. T., and Maurey, B.,
-The unconditional basic sequence problem,
-\textit{J. Amer. Math. Soc.} \textbf{6} (1993), 851--874.
-
-\bibitem
-{Lind}
-Lindenstrauss, J., and Tzafriri, L.,
-\textit{Classical Banach Spaces I and II},
-Springer: Berlin, 1996.
-
-\bibitem
-{Pedersen}
-Pedersen, G. K.,
-\textit{Analysis Now},
-Springer: New York, 1989.
-
-\bibitem
-{Stein1}
-Stein, E. M.,
-The development of square functions in the work of A. Zygmund,
-\textit{Bulletin (New Series) of the Amer. Math. Soc},
-\textbf{6} (1982), 5--30.
-
-\bibitem
-{Stein}
-Stein, E. M.,
-\textit{Topics in Harmonic Analysis Related to the Littlewood--Paley Theory},
-Princeton UP: Princeton, 1970.
-
-\end{thebibliography}
-
-
-
+\bibliography{bibliography}{}
+\bibliographystyle{plain}
 
 \end{document}
 
