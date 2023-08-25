@@ -225,9 +225,15 @@ Signed: Justin Clarke \hfill Date: 21/07/2023 \newline
 
 \prefacesection{Abstract}
 
-Graph sparification techniques for graph neural networks have traditionally been used to accelerate training and inference on real-world graphs which have billions of paramaters.
-There are also many different climate models which use complex mathematical models to model the interactions between energy and matter over the world. 
-Many of these models share components and parameters and in this paper, I attempt to quantify these relationships through graph sparsification. (Talk more about climate?)
+Graph sparification techniques for graph neural networks have traditionally been used to 
+accelerate training and inference on real-world graphs which have billions of paramaters.
+There are also many different climate models which use complex mathematical models to model 
+the interactions between energy and matter over the world. Many of these models share 
+components and the structure of these relationships is not easily found due to the complexity of
+these climate models. The space of all possible graphs grows super-exponentially with the number 
+of nodes and as such any correlation or causality is difficult to find. In this paper, I attempt 
+to quantify these relationships with graph sparsification techniques.
+(Talk more about climate?)
 \afterpage{\blankpage}
 
 
@@ -299,6 +305,12 @@ The advent of deep learning allowed algorithms to progressively extract higher-l
 
 
 
+%%%%%%%%%%%%
+\section{Variational Autoencoder}\label{vae}
+%%%%%%%%%%%%
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Framework}\label{framework}
@@ -326,11 +338,11 @@ graph is attempting to predict. As mentioned earlier, other variables such as pr
 is currently being used. The two-layer GNN from \cite{kipf2017semisupervised} can be expressed as
 
 \begin{equation}
-f(\mathbf{A, X}) = \sigma_2( \mathbf{ \hat{A} }_2 \sigma_1 (\mathbf{ \hat{A} }_1 \mathbf{X} W^{(1)}) W^{(1)})
+f(\mathbf{A, X}) = \sigma_2( \mathbf{ \hat{A} }_2 \sigma_1 (\mathbf{ \hat{A} }_1 \mathbf{X} W^{(0)}) W^{(1)})
 \end{equation}
 
-\noindent where $\sigma_1(.)$ and $\sigma_2(.)$ are an activation function such as ReLU, $\hat{A} = \tilde{D}^{-1/2} (A + I) \tilde{D}^{-1/2}$
-The final regression problem can be formulated as
+\noindent where $\sigma_1(.)$ and $\sigma_2(.)$ are an activation function such as ReLU, and $\hat{A} = \tilde{D}^{-1/2} (A + I) \tilde{D}^{-1/2}$
+is the symmetrically normalised adjacency matrix. The final regression problem can be formulated as
 
 \begin{equation}
 f : L \times X \rightarrow Y

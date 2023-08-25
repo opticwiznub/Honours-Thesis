@@ -5,6 +5,7 @@
 \contentsline {section}{\numberline {2.2}Neural Networks}{2}{}%
 \contentsline {section}{\numberline {2.3}Graphs}{2}{}%
 \contentsline {section}{\numberline {2.4}Graph Neural Networks}{2}{}%
+\contentsline {section}{\numberline {2.5}Variational Autoencoder}{2}{}%
 \contentsline {chapter}{\numberline {Chapter 3}Framework}{3}{}%
 \contentsline {section}{\numberline {3.1}Dataset}{3}{}%
 \contentsline {section}{\numberline {3.2}Problem Formulation}{3}{}%
