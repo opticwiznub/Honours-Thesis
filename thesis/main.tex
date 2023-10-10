@@ -267,6 +267,8 @@ in applications such as chemical analysis, social networks and link prediction (
 where information from features on each node is passed to neighbouring nodes then aggregated and embedded. This is then propagated through a neural network structure to
 perform a range of tasks on the entire graph, individual nodes and edges.        
 
+{\section{Approach}}\label{approach}
+Overview on my goal and how I am testing this goal. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -279,34 +281,58 @@ In this chapter we will give a brief overview on how the climate works and revie
 current standards in climate modelling along with the basics
 behind neural networks and the extensions towards graph neural networks.
 
+This will basically be the section on literature review. Current methods and techniques being
+used etc. A lot of summaries of the papers saved in the papers folder need to be done to 
+finish this section.
+
 
 %%%%%%%%%%%
 \section{Climate Models}\label{climate}
 %%%%%%%%%%%
-
-
-
-%%%%%%%%%%%%
-\section{Neural Networks}\label{nn}
-%%%%%%%%%%%%
-Traditional machine learning techiques generally require meaningful data cleaning and feature creation which was costly to develop and often had many errors.
-The advent of deep learning allowed algorithms to progressively extract higher-level features from raw data.\cite{deng-deep-learning} The MLP 
+What climate models are used for etc.
+Use Yanan's climate papers.
 
 
 %%%%%%%%%%%%
-\section{Graphs}\label{g}
+\section{Deep Learning}\label{nn}
 %%%%%%%%%%%%
+Traditional machine learning techiques generally require meaningful data cleaning and feature creation which was costly to develop and 
+often had many errors. The advent of deep learning provided algorithms that could automatically extract higher-level features from raw data.\cite{deng-deep-learning} The MLP 
+The multi-layer perceptron\cite{rumelhart1986learning} is formulated using linked layers of nodes which transforms a set of inputs into an output. For a regression task,
+the MLP attempts to approximate some ground-truth function which may also be non-linear. This can be represented as
 
+\begin{equation}
+    f(x) = \sigma(\Theta^T X)  \; \text{where}  \; \Theta= \begin{bmatrix} b \\ \theta_1 \\ \vdots \\ \theta_n \end{bmatrix} \text{and} \; X = \begin{bmatrix} 1 \\ x_1 \\ \vdots \\ x_n \end{bmatrix}
+\end{equation}
 
+\noindent Where $\sigma(.)$ is some activation function such as ReLu, hyperbolic tangent or logistic function, $X$ is the data, $\Theta$ is the learned parameters and $b$ represents a bias term.
+These parameters are set to some initial values and are iteratively updated in a back-propagation training process,
 
+\begin{equation}
+    \theta^{t+1} = \theta^{t} - \eta\frac{\partial E(X, \theta^t)}{\partial\theta}
+\end{equation}
+
+\noindent Where $E(.)$ is some loss function and $\eta$ is the learning rate.
+
+The next advancement in the deep learning space came with the Convolutional Neural Network (CNN) which was a regularised MLP that could
+handle data with data with structure and multiple dimensions far better than the traditional MLP due to its use of weight sharing, sampling
+and local receptive fields.
 %%%%%%%%%%%%
 \section{Graph Neural Networks}\label{gnn}
 %%%%%%%%%%%%
+Summarise the extension of GNN's from NN's and how they are useful in certain applications.
+Also detail the maths behind graph sparsification.
+
+Towards sparisification of GNN's \cite{peng2023sparsification}
+and unified lottery ticket hypothesis \cite{chen2021unified} for gnn's should be reviewed here.
+
 
 
 
 %%%%%%%%%%%%
 \section{Variational Autoencoder}\label{vae}
+This section should be done with more time if the original sparsification section is completed.
+Show how this is an alternative in graph discovery.
 %%%%%%%%%%%%
 
 
@@ -324,6 +350,8 @@ The datasets used are from the CIMP6 scenario runs made available on the KNMI Cl
 World Meteoriological Organization (WMO)\cite{}. The scenario runs include monthly predictions for temperature, min temperature, max temperature
 precipitation, radiation and pressure all over the globe in a 192x144 grid between 1850-2100 for 40 different models. For simplicity and brievity, 
 this was filtered to just temperature during the 1960-1970 period in just Australia. 
+
+Talk a bit more about how these models in the dataset are all related by certain parts.
 %%%%%%%%%%%%%%%%
 
 {\section{Problem Formulation}}\label{problem-formulation}
@@ -350,7 +378,33 @@ f : L \times X \rightarrow Y
 
 \noindent where $f$ denotes the learning function, $L$ the graph, $X$ denotes the time series input and $Y$ the regression target.
 
+Need to describe the math behind graph sparsification. More about shrinkage see Xiongwens.
+
+{\section{Computational features}}\label{computation}
+computation of neural network models. See georges paper 
+{\section{Implementation}}\label{implementation}
+
+Need to finish code to finish this section.
+
+\chapter{Results}\label{results}
+
+{\section{Model verification}}\label{model-verification}
+If the VGAE section is completed, we can compared the sparsified graph with the VGAE
+produced graph to determine how good graph sparsification is when used for graph discovery
+and thereby correlation in a graph structure.
+
+{\section{Model results}}\label{model-results}
+Is there some way we can test the models results depending on how sparse we make the graph etc.
+Research required to find some quantitative measure for this.
+
+Some figures of the NN structure would also be helpful for this.
+Need to use nx or some other graph representation tool in python for this.
+
+\chapter{Discussion}\label{dis}
+
 \chapter{Conclusion}\label{ccl}
+
+\chapter{Appendix}\label{app}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

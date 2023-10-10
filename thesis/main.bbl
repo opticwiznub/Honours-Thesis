@@ -1,12 +1,33 @@
 \begin{thebibliography}{1}
 
+\bibitem{chen2021unified}
+Tianlong Chen, Yongduo Sui, Xuxi Chen, Aston Zhang, and Zhangyang Wang.
+\newblock A unified lottery ticket hypothesis for graph neural networks, 2021.
+
 \bibitem{deng-deep-learning}
 Li~Deng and Dong Yu.
-\newblock 2014.
+\newblock {\em Deep Learning: Methods and Applications}.
+\newblock Now Foundations and Trends, 2014.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
 
 \bibitem{kipf2017semisupervised}
 Thomas~N. Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks,
   2017.
+
+\bibitem{peng2023sparsification}
+Hongwu Peng, Deniz Gurevin, Shaoyi Huang, Tong Geng, Weiwen Jiang, Omer Khan,
+  and Caiwen Ding.
+\newblock Towards sparsification of graph neural networks, 2023.
+
+\bibitem{rumelhart1986learning}
+David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
+\newblock Learning representations by back-propagating errors.
+\newblock {\em nature}, 323(6088):533--536, 1986.
 
 \end{thebibliography}

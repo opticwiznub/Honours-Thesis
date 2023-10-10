@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  25 AUG 2023 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  10 OCT 2023 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,11 +8,7 @@ entering extended mode
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
 (unswthesis.cls
-
-LaTeX Warning: You have requested document class `unswthesis',
-               but the document class provides `UNSWthesis'.
-
-Document Class: UNSWthesis 1999/11/10  v2.42  UNSW thesis class
+Document Class: unswthesis 1999/11/10  v2.42  UNSW thesis class
 (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
@@ -211,23 +207,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
 ] [2] [2
 
-] [3] [3] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
- (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-))
+] [3] [3]
+No file main.toc.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [4
+[4
 
 ] [0
 
@@ -235,17 +220,66 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 Chapter 1.
 [1]
 Chapter 2.
-[2
+
+LaTeX Warning: Citation `deng-deep-learning' on page 2 undefined on input line 300.
+
+
+LaTeX Warning: Citation `rumelhart1986learning' on page 2 undefined on input line 301.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 304.
+(C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 304.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 304.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [2
 
 ]
+
+LaTeX Warning: Citation `peng2023sparsification' on page 3 undefined on input line 326.
+
+
+LaTeX Warning: Citation `chen2021unified' on page 3 undefined on input line 327.
+
+[3]
 Chapter 3.
-[3
 
-]
-Chapter 4.
+LaTeX Warning: Citation `kipf2017semisupervised' on page 4 undefined on input line 366.
+
 [4
 
-] (main.bbl) [5
+] [5]
+Chapter 4.
+[6
+
+]
+Chapter 5.
+[7
+
+]
+Chapter 6.
+[8
+
+]
+Chapter 7.
+[9
+
+] (main.bbl
+main.bbl:16: Undefined control sequence.
+l.16 \newblock \url
+                   {http://www.deeplearningbook.org}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [10
 
 
 ] (main.aux)
@@ -253,19 +287,26 @@ Chapter 4.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3024 strings out of 475550
- 44392 string characters out of 5762533
- 1924238 words of memory out of 5000000
- 24212 multiletter control sequences out of 15000+600000
- 565796 words of font info for 66 fonts, out of 8000000 for 9000
+ 3036 strings out of 475550
+ 44557 string characters out of 5762533
+ 1925238 words of memory out of 5000000
+ 24225 multiletter control sequences out of 15000+600000
+ 566143 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,6n,65p,283b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (15 pages, 811712 bytes).
+ 57i,8n,65p,297b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (20 pages, 835564 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

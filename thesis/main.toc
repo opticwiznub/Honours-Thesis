@@ -1,13 +1,20 @@
 \contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{}%
+\contentsline {section}{\numberline {1.2}Approach}{1}{}%
 \contentsline {chapter}{\numberline {Chapter 2}Background and Related Techniques}{2}{}%
 \contentsline {section}{\numberline {2.1}Climate Models}{2}{}%
-\contentsline {section}{\numberline {2.2}Neural Networks}{2}{}%
-\contentsline {section}{\numberline {2.3}Graphs}{2}{}%
-\contentsline {section}{\numberline {2.4}Graph Neural Networks}{2}{}%
-\contentsline {section}{\numberline {2.5}Variational Autoencoder}{2}{}%
-\contentsline {chapter}{\numberline {Chapter 3}Framework}{3}{}%
-\contentsline {section}{\numberline {3.1}Dataset}{3}{}%
-\contentsline {section}{\numberline {3.2}Problem Formulation}{3}{}%
-\contentsline {chapter}{\numberline {Chapter 4}Conclusion}{4}{}%
-\contentsline {chapter}{References}{5}{}%
+\contentsline {section}{\numberline {2.2}Deep Learning}{2}{}%
+\contentsline {section}{\numberline {2.3}Graph Neural Networks}{3}{}%
+\contentsline {section}{\numberline {2.4}Variational Autoencoder}{3}{}%
+\contentsline {chapter}{\numberline {Chapter 3}Framework}{4}{}%
+\contentsline {section}{\numberline {3.1}Dataset}{4}{}%
+\contentsline {section}{\numberline {3.2}Problem Formulation}{4}{}%
+\contentsline {section}{\numberline {3.3}Computational features}{5}{}%
+\contentsline {section}{\numberline {3.4}Implementation}{5}{}%
+\contentsline {chapter}{\numberline {Chapter 4}Results}{6}{}%
+\contentsline {section}{\numberline {4.1}Model verification}{6}{}%
+\contentsline {section}{\numberline {4.2}Model results}{6}{}%
+\contentsline {chapter}{\numberline {Chapter 5}Discussion}{7}{}%
+\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{8}{}%
+\contentsline {chapter}{\numberline {Chapter 7}Appendix}{9}{}%
+\contentsline {chapter}{References}{10}{}%
