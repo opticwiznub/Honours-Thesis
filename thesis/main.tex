@@ -374,12 +374,12 @@ gives the following objective function:
     \mathcal{L}_{\text{UGS}} = \mathcal{L}(\{m_g \odot A, \textbf{X}\}, m_\theta \odot \Theta) + \gamma_1 ||m_g||_1 + \gamma_2 ||m_\theta||_1,
 \end{equation}
 
-where $\odot$ is the element-wise product, $\gamma_1$ and $\gamma_2$ are hyperparameters to control the shrinkage of $m_g$ and $m_\theta$.
+\noindent where $\odot$ is the element-wise product, $\gamma_1$ and $\gamma_2$ are hyperparameters to control the shrinkage of $m_g$ and $m_\theta$.
 After training, the lowest magnitude elements in $m_g$ and $m_\theta$ are set to zero with respect to some set values of $p_g$ and $p_\theta$.
 These sparse masks are then applied which prune $\textbf{A}$ and $\Theta$.
 
 %%%%%%%%%%%%
-\section{Variational Autoencoder}\label{vae}
+\section{Variational Autoencoder}\label{vgae}
 This section should be done with more time if the original sparsification section is completed.
 Show how this is an alternative in graph discovery.
 %%%%%%%%%%%%
