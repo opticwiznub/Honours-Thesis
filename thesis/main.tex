@@ -313,21 +313,70 @@ These parameters are set to some initial values and are iteratively updated in a
 \end{equation}
 
 \noindent Where $E(.)$ is some loss function and $\eta$ is the learning rate.
-
 The next advancement in the deep learning space came with the Convolutional Neural Network (CNN) which was a regularised MLP that could
 handle data with data with structure and multiple dimensions far better than the traditional MLP due to its use of weight sharing, sampling
-and local receptive fields.
+and local receptive fields.\cite{Goodfellow-et-al-2016}
+
+\noindent Suppose we have an image or some other kind of data in matrix form. Let $\textbf{X} \in \mathbb{R}^{H\times W}$ be the input image and
+$\textbf{W} \in \mathbb{R}^{h\times w}$ be the kernel or filter. By performing a convolution, we are effectively 'sliding' our weight matrix kernel
+over our input and the resulting feature map $\textbf{Z} = \textbf{X} \ast \textbf{W}$,
+
+\begin{equation}
+    Z_{i, j} = \sum_{u=0}^{h-1}\sum_{v=0}^{w-1} x_{i+u, j+v} w_{u, v}
+\end{equation}
+
+\noindent The novelty of the convolutional layer compared to a linear layer is that the kernel is shared across all locations of the input and therefore
+if a pattern in the input moves, the corresponding output will also follow this movement. This provides shift equivariance which is something that early MLP's
+failed to achieve. \cite{pml1Book}
+
 %%%%%%%%%%%%
 \section{Graph Neural Networks}\label{gnn}
 %%%%%%%%%%%%
-Summarise the extension of GNN's from NN's and how they are useful in certain applications.
-Also detail the maths behind graph sparsification.
+\textit{Summarise the extension of GNN's from NN's and how they are useful in certain applications.} 
+When it comes to data in a graph-like structure, standard CNN's cannot be applied due to the non-euclidean nature of a graph.
+In an image or a matrix, our kernel is generally a $n\times n$ matrix which can be applied to the entirety of the data. In graphs
+this is not always possible due to the fact that any number of nodes can be connected by any number of edges.\cite{sanchez-lengeling2021a} 
+The Graph Neural Network (GNN) was developed for this purpose and they can be broadly categorised into gating and attention based methods\cite{veličković2018graph} 
+and spectral or spatial methods within Graph Convolutional Network (GCN) research.\cite{kipf2017semisupervised} This propagation rule is as follows:
 
+\begin{equation}
+    H^{(l+1)} = \sigma(\tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} H^{(l) W^{(l)}})
+\end{equation}
+
+Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph $\mathcal{G}$ with self-connections from the identity matrix $I_N$.
+$\tilde{D_{ii}} = \sum_{j} \tilde{A}_{ij} $ is the row sum of the adjacency matrix and $W^{(l)}$ is a layer trainable weight matrix. 
+$\sigma(.)$ is an activation function such as $\text{ReLU}(.) = \text{max}(0, .)$. $H^{(l)} \in \mathbb{R}^{N \times D}$ is the matrix of activations
+in the lth layer with $H^0 = X$. 
+
+
+\section{Sparsification Graph Neural Network}\label{vae}
+New section for graph sparsification?
 Towards sparisification of GNN's \cite{peng2023sparsification}
 and unified lottery ticket hypothesis \cite{chen2021unified} for gnn's should be reviewed here.
 
+In recent years, the size of deep learning models has grown exponentially with some models using billions of parameters. Although neural networks do not 
+tend to be affected greatly by overparameterisation, these models have become increasingly costly both in terms of inference and prediction. The 
+Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
+still training to full accuracy. When training a traditional neural network, this was done by instability analysis etc. etc.? (should i talk about this?)
 
+Chen et. al.\cite{chen2021unified} extended the LTH to Graph Neural Networks by co-simplifying both the adjacentcy matrix of the graph and the weights in 
+the network of the model. For a semi-supervised classification task, the objective function is:
 
+\begin{equation}
+    \mathcal{L}(\mathcal{G}, \Theta) = -\frac{1}{|\mathcal{V}_{\text{label}}|}\sum_{v_i \in \mathcal{V_{\text{label}}}} y_i \log{(z_i)},
+\end{equation}
+
+where $\mathcal{L}$ is the cross-entropy error of all samples and $y_i$ is the label vector of node $v_i$. The Unified GNN Sparsification (UGS)
+framework then introduced two masks $m_g$ and $m_\theta$ with the same shape as the adjacency matrix $\textbf{A}$ and the weights matrix $\Theta$, which
+gives the following objective function:
+
+\begin{equation}
+    \mathcal{L}_{\text{UGS}} = \mathcal{L}(\{m_g \odot A, \textbf{X}\}, m_\theta \odot \Theta) + \gamma_1 ||m_g||_1 + \gamma_2 ||m_\theta||_1,
+\end{equation}
+
+where $\odot$ is the element-wise product, $\gamma_1$ and $\gamma_2$ are hyperparameters to control the shrinkage of $m_g$ and $m_\theta$.
+After training, the lowest magnitude elements in $m_g$ and $m_\theta$ are set to zero with respect to some set values of $p_g$ and $p_\theta$.
+These sparse masks are then applied which prune $\textbf{A}$ and $\Theta$.
 
 %%%%%%%%%%%%
 \section{Variational Autoencoder}\label{vae}
@@ -355,6 +404,8 @@ Talk a bit more about how these models in the dataset are all related by certain
 %%%%%%%%%%%%%%%%
 
 {\section{Problem Formulation}}\label{problem-formulation}
+\textit{Maybe add this to the background section and put more of the regression, diagrams of the process and shrinkage prior stuff here that it more specific to this thesis}
+
 We define a graph as ${\mathcal{G}} = ({\mathcal{V}}, \textbf{A})$, where $\mathcal{V}$ represents a set of verticies which contains a list of nodes
 $\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains information on the graph topology. If an edge exists
 between two node $v_i$ and $v_j$, then $\textbf{A}_{ij} = 1$ else, $\textbf{A}_{ij} = 0$. We also define the degree matrix as $\mathbf{D} = \sum_{j}A_{ij}$

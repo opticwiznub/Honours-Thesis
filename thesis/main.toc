@@ -5,16 +5,17 @@
 \contentsline {section}{\numberline {2.1}Climate Models}{2}{}%
 \contentsline {section}{\numberline {2.2}Deep Learning}{2}{}%
 \contentsline {section}{\numberline {2.3}Graph Neural Networks}{3}{}%
-\contentsline {section}{\numberline {2.4}Variational Autoencoder}{3}{}%
-\contentsline {chapter}{\numberline {Chapter 3}Framework}{4}{}%
-\contentsline {section}{\numberline {3.1}Dataset}{4}{}%
-\contentsline {section}{\numberline {3.2}Problem Formulation}{4}{}%
-\contentsline {section}{\numberline {3.3}Computational features}{5}{}%
-\contentsline {section}{\numberline {3.4}Implementation}{5}{}%
-\contentsline {chapter}{\numberline {Chapter 4}Results}{6}{}%
-\contentsline {section}{\numberline {4.1}Model verification}{6}{}%
-\contentsline {section}{\numberline {4.2}Model results}{6}{}%
-\contentsline {chapter}{\numberline {Chapter 5}Discussion}{7}{}%
-\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{8}{}%
-\contentsline {chapter}{\numberline {Chapter 7}Appendix}{9}{}%
-\contentsline {chapter}{References}{10}{}%
+\contentsline {section}{\numberline {2.4}Sparsification Graph Neural Network}{3}{}%
+\contentsline {section}{\numberline {2.5}Variational Autoencoder}{4}{}%
+\contentsline {chapter}{\numberline {Chapter 3}Framework}{5}{}%
+\contentsline {section}{\numberline {3.1}Dataset}{5}{}%
+\contentsline {section}{\numberline {3.2}Problem Formulation}{5}{}%
+\contentsline {section}{\numberline {3.3}Computational features}{6}{}%
+\contentsline {section}{\numberline {3.4}Implementation}{6}{}%
+\contentsline {chapter}{\numberline {Chapter 4}Results}{7}{}%
+\contentsline {section}{\numberline {4.1}Model verification}{7}{}%
+\contentsline {section}{\numberline {4.2}Model results}{7}{}%
+\contentsline {chapter}{\numberline {Chapter 5}Discussion}{8}{}%
+\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{9}{}%
+\contentsline {chapter}{\numberline {Chapter 7}Appendix}{10}{}%
+\contentsline {chapter}{References}{11}{}%

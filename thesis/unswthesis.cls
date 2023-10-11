@@ -2,7 +2,7 @@
 % UNSWThesis.cls : A thesis style of UNSW modified from ADFAThesis.cls
 %-----------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{unswthesis}[1999/11/10 \space v2.42 \space%
+\ProvidesClass{UNSWthesis}[1999/11/10 \space v2.42 \space%
          UNSW thesis class]
 
 %-----------------------------------------------------------------------

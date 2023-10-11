@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{chen2021unified}
 Tianlong Chen, Yongduo Sui, Xuxi Chen, Aston Zhang, and Zhangyang Wang.
@@ -9,16 +9,25 @@ Li~Deng and Dong Yu.
 \newblock {\em Deep Learning: Methods and Applications}.
 \newblock Now Foundations and Trends, 2014.
 
+\bibitem{frankle2020linear}
+Jonathan Frankle, Gintare~Karolina Dziugaite, Daniel~M. Roy, and Michael
+  Carbin.
+\newblock Linear mode connectivity and the lottery ticket hypothesis, 2020.
+
 \bibitem{Goodfellow-et-al-2016}
 Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock {\em Deep Learning}.
 \newblock MIT Press, 2016.
-\newblock \url{http://www.deeplearningbook.org}.
 
 \bibitem{kipf2017semisupervised}
 Thomas~N. Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks,
   2017.
+
+\bibitem{pml1Book}
+Kevin~P. Murphy.
+\newblock {\em Probabilistic Machine Learning: An introduction}.
+\newblock MIT Press, 2022.
 
 \bibitem{peng2023sparsification}
 Hongwu Peng, Deniz Gurevin, Shaoyi Huang, Tong Geng, Weiwen Jiang, Omer Khan,
@@ -29,5 +38,17 @@ Hongwu Peng, Deniz Gurevin, Shaoyi Huang, Tong Geng, Weiwen Jiang, Omer Khan,
 David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
 \newblock Learning representations by back-propagating errors.
 \newblock {\em nature}, 323(6088):533--536, 1986.
+
+\bibitem{sanchez-lengeling2021a}
+Benjamin Sanchez-Lengeling, Emily Reif, Adam Pearce, and Alexander~B.
+  Wiltschko.
+\newblock A gentle introduction to graph neural networks.
+\newblock {\em Distill}, 2021.
+\newblock https://distill.pub/2021/gnn-intro.
+
+\bibitem{veličković2018graph}
+Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
+  Liò, and Yoshua Bengio.
+\newblock Graph attention networks, 2018.
 
 \end{thebibliography}
