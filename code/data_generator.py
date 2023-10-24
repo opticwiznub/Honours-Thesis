@@ -53,13 +53,14 @@ class ssp_data():
             pass
 
         df = data.to_dataframe().reset_index()
+        # df = df.query('lat == -43.125 & lat == 288.750')
         df = df.query('lat >= -44 & lat <= -12 & lon >= 288 & lon <= 336')
         ret = df.loc[(df['time'].dt.year > 1960) & (df['time'].dt.year < 1980), ['time', 'lat', 'lon', 'tas']]
 
         return ret
     
     def test_train_split(self, p=74100):
-        df = self.x.drop(columns=['time'], axis=1)
+        df = self.x.drop(columns=['time', 'lat', 'lon'], axis=1)
         self.x_train = df[0:p]
         self.x_test = df[p:]
         self.y_train = df[0:p]
@@ -83,16 +84,21 @@ class ssp_data():
 
     def create_tensors(self, df):
         device = self.get_device()
-        return torch.from_numpy(df.values).float().to(device)
+        return torch.from_numpy(df.values).transpose(0, 1).float().to(device)
     
-    def mini_graphs(self):
-        df = self.x
-        df['x_tensor'] = df.apply(lambda row: torch.tensor(row.values.flatten()), axis=1)
-        df['y'] = self.y
-        df['y_tensor'] = df['y'].apply(lambda y: torch.tensor(y))
-        df['data_obj'] = df.apply(lambda row: torch_geometric.data.Data(x=df['x_tensor'], edge_index=self.edge_index.t().contiguous(), y=df['y_tensor']), axis=1)
-        self.batch_graphs = df['data_obj']
+    def to_pickle(self, name='data_pickle'):
+        file = open(name, 'wb')
+        pickle.dump(self, file)
+        file.close()
     
-    def split_data(self):
-        transform = T.Compose([T.RandomNodeSplit(num_test=1000, num_val=1000)])
-        self.data = transform(self.data) 
+    # def mini_graphs(self):
+    #     df = self.x
+    #     df['x_tensor'] = df.apply(lambda row: torch.tensor(row.values.flatten()), axis=1)
+    #     df['y'] = self.y
+    #     df['y_tensor'] = df['y'].apply(lambda y: torch.tensor(y))
+    #     df['data_obj'] = df.apply(lambda row: torch_geometric.data.Data(x=df['x_tensor'], edge_index=self.edge_index.t().contiguous(), y=df['y_tensor']), axis=1)
+    #     self.batch_graphs = df['data_obj']
+    
+    # def split_data(self):
+    #     transform = T.Compose([T.RandomNodeSplit(num_test=1000, num_val=1000)])
+    #     self.data = transform(self.data) 

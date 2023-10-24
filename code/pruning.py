@@ -351,17 +351,18 @@ def add_trainable_mask_noise(model, c):
     model.net_layer[0].weight_mask_train.requires_grad = False
     model.net_layer[1].weight_mask_train.requires_grad = False
 
-    rand1 = (2 * torch.rand(model.adj_mask1_train.shape, torch.float) - 1) * c 
+    rand1 = (2 * torch.rand(model.adj_mask1_train.shape, dtype=torch.float) - 1) * c 
     rand1 = rand1.to(model.adj_mask1_train.device) 
     rand1 = rand1 * model.adj_mask1_train
-    model.adj_mask1_train.add_(rand1)#yeet
+    print(rand1.dtype, model.adj_mask1_train.dtype)
+    model.adj_mask1_train.add_(rand1.float())#yeet
 
-    rand2 = (2 * torch.rand(model.net_layer[0].weight_mask_train.shape, torch.float) - 1) * c
+    rand2 = (2 * torch.rand(model.net_layer[0].weight_mask_train.shape, dtype=torch.float) - 1) * c
     rand2 = rand2.to(model.net_layer[0].weight_mask_train.device)
     rand2 = rand2 * model.net_layer[0].weight_mask_train
     model.net_layer[0].weight_mask_train.add_(rand2)
 
-    rand3 = (2 * torch.rand(model.net_layer[1].weight_mask_train.shape, torch.float) - 1) * c 
+    rand3 = (2 * torch.rand(model.net_layer[1].weight_mask_train.shape, dtype=torch.float) - 1) * c 
     rand3 = rand3.to(model.net_layer[1].weight_mask_train.device)
     rand3 = rand3 * model.net_layer[1].weight_mask_train
     model.net_layer[1].weight_mask_train.add_(rand3)

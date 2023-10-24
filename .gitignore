@@ -1,4 +1,7 @@
 code/data/
+code/__pycache__/
 data/
 book1.pdf
 book2.pdf
+*.nc
+code/full_df

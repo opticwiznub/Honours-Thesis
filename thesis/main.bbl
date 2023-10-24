@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{ClimateModelDependenceandtheEnsembleDependenceTransformationofCMIPProjections}
+G.~Abramowitz and C.~H. Bishop.
+\newblock Climate model dependence and the ensemble dependence transformation
+  of cmip projections.
+\newblock {\em Journal of Climate}, 28(6):2332 -- 2348, 2015.
+
+\bibitem{Cao_Gu_2020}
+Yuan Cao and Quanquan Gu.
+\newblock Generalization error bounds of gradient descent for learning
+  over-parameterized deep relu networks.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  34(04):3349--3356, Apr. 2020.
+
 \bibitem{chen2021unified}
 Tianlong Chen, Yongduo Sui, Xuxi Chen, Aston Zhang, and Zhangyang Wang.
 \newblock A unified lottery ticket hypothesis for graph neural networks, 2021.
@@ -8,6 +21,12 @@ Tianlong Chen, Yongduo Sui, Xuxi Chen, Aston Zhang, and Zhangyang Wang.
 Li~Deng and Dong Yu.
 \newblock {\em Deep Learning: Methods and Applications}.
 \newblock Now Foundations and Trends, 2014.
+
+\bibitem{edwards2011history}
+Paul~N Edwards.
+\newblock History of climate modeling.
+\newblock {\em Wiley Interdisciplinary Reviews: Climate Change}, 2(1):128--139,
+  2011.
 
 \bibitem{frankle2020linear}
 Jonathan Frankle, Gintare~Karolina Dziugaite, Daniel~M. Roy, and Michael
@@ -19,10 +38,30 @@ Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock {\em Deep Learning}.
 \newblock MIT Press, 2016.
 
+\bibitem{Harrisson_2021}
+Thomas Harrisson.
+\newblock Cmip6: The next generation of climate models explained, Oct 2021.
+
 \bibitem{kipf2017semisupervised}
 Thomas~N. Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks,
   2017.
+
+\bibitem{Kulinich_2022}
+Max Kulinich.
+\newblock {\em A Markov chain method for weighting climate model ensembles and
+  uncertainty estimation on spatially explicit data}.
+\newblock PhD thesis, UNSW, 2022.
+
+\bibitem{lee2021future}
+June-Yi Lee, Jochem Marotzke, Govindasamy Bala, Long Cao, Susanna Corti, John~P
+  Dunne, Francois Engelbrecht, Erich Fischer, John~C Fyfe, Christopher Jones,
+  et~al.
+\newblock Future global climate: scenario-based projections and near-term
+  information.
+\newblock In {\em Climate change 2021: The physical science basis. Contribution
+  of working group I to the sixth assessment report of the intergovernmental
+  panel on climate change}, pages 553--672. Cambridge University Press, 2021.
 
 \bibitem{pml1Book}
 Kevin~P. Murphy.
@@ -33,6 +72,18 @@ Kevin~P. Murphy.
 Hongwu Peng, Deniz Gurevin, Shaoyi Huang, Tong Geng, Weiwen Jiang, Omer Khan,
   and Caiwen Ding.
 \newblock Towards sparsification of graph neural networks, 2023.
+
+\bibitem{radford2018improving}
+Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, et~al.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{rath2020detecting}
+Bhavtosh Rath, Aadesh Salecha, and Jaideep Srivastava.
+\newblock Detecting fake news spreaders in social networks using inductive
+  representation learning.
+\newblock In {\em 2020 IEEE/ACM International Conference on Advances in Social
+  Networks Analysis and Mining (ASONAM)}, pages 182--189. IEEE, 2020.
 
 \bibitem{rumelhart1986learning}
 David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
@@ -50,5 +101,15 @@ Benjamin Sanchez-Lengeling, Emily Reif, Adam Pearce, and Alexander~B.
 Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
   Liò, and Yoshua Bengio.
 \newblock Graph attention networks, 2018.
+
+\bibitem{xu2022chemistry}
+Katherine Xu and Janice Lan.
+\newblock Chemistry insights for large pretrained {GNN}s.
+\newblock In {\em NeurIPS 2022 AI for Science: Progress and Promises}, 2022.
+
+\bibitem{zhang2020revisiting}
+Muhan Zhang, Pan Li, Yinglong Xia, Kai Wang, and Long Jin.
+\newblock Revisiting graph neural networks for link prediction.
+\newblock 2020.
 
 \end{thebibliography}

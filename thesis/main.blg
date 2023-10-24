@@ -6,45 +6,47 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for ""
-You've used 10 entries,
+Warning--empty journal in radford2018improving
+Warning--empty journal in zhang2020revisiting
+You've used 20 entries,
             2118 wiz_defined-function locations,
-            547 strings with 5477 characters,
-and the built_in function-call counts, 3048 in all, are:
-= -- 259
-> -- 214
-< -- 0
-+ -- 86
-- -- 74
-* -- 201
-:= -- 537
-add.period$ -- 26
-call.type$ -- 10
-change.case$ -- 64
+            608 strings with 7669 characters,
+and the built_in function-call counts, 6616 in all, are:
+= -- 602
+> -- 406
+< -- 2
++ -- 163
+- -- 140
+* -- 451
+:= -- 1130
+add.period$ -- 57
+call.type$ -- 20
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 92
-empty$ -- 221
-format.name$ -- 74
-if$ -- 611
+cite$ -- 22
+duplicate$ -- 222
+empty$ -- 488
+format.name$ -- 140
+if$ -- 1356
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 8
-newline$ -- 49
-num.names$ -- 20
-pop$ -- 101
+int.to.str$ -- 20
+missing$ -- 16
+newline$ -- 98
+num.names$ -- 40
+pop$ -- 174
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 108
 quote$ -- 0
-skip$ -- 73
+skip$ -- 170
 stack$ -- 0
-substring$ -- 77
-swap$ -- 10
-text.length$ -- 0
+substring$ -- 277
+swap$ -- 38
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 34
-warning$ -- 0
-while$ -- 22
-width$ -- 12
-write$ -- 95
-(There was 1 warning)
+type$ -- 74
+warning$ -- 2
+while$ -- 52
+width$ -- 22
+write$ -- 199
+(There were 3 warnings)

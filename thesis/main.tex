@@ -166,6 +166,8 @@
 
 \begin{document}
 
+\graphicspath{ {C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/} }
+
 \beforepreface
 
 \afterpage{\blankpage}
@@ -250,29 +252,51 @@ to quantify these relationships with graph sparsification techniques.
 
 \chapter{Introduction}\label{s-intro}
 
-{\section{Motivation}}\label{motivation}
+{\section{Background}}\label{background}
 
-{\noindent} The simplest climate modeles have existed since the 1950's with the very first computers modelling small two-dimensional climates. 
-Modern models have become increasingly more complex in part due to the increasing computational power available today and the large amount of data available
-worldwide to train these models on. Many of these models have become unexplainable due to the sheer complexity and number of their parts yet many share components
-and frameworks. One of the most important questions that climate science is attempting to answer today is what impact have humans had on the future of the climate.
-The prediction of climate change is important as it can guide us on the potential harms we may be causing to environment and life around us. As such, many models
-and 'scenario runs' have been developed which predict various outcomes in temperature, precipitation, air pressure and solar radiation given a certain level of 
+{\noindent} The simplest climate modeles have existed since the 1950's with the very first computers modelling small two-dimensional climates\cite{edwards2011history}. 
+Modern models have become increasingly more complex in part due to developments in computational techniques and the large amount of data available worldwide to train these models. 
+A common approach to studying the complex system of Earth's climate has been through sophisticated mathematical modelling with a range of temporal and spatial data\cite{Kulinich_2022}. 
+One of the most important areas of study that climate science is att empting to answer is the effect of human greenhouse gas emissions on the Earth and its future.
+Understanding this is important as it can guide us on the potential harms we may be causing to environment and life around us and lead us to implement change. As such, many models
+and ``scenario runs'' have been developed which predict various outcomes in temperature, precipitation, air pressure and solar radiation given a certain level of 
 societal development. On the lower end, SSP126 assumes an increasingly sustainable world where consumption is oriented towards minimising material resource and energy usage
-while SSP585 assumes a worst case scenario where fossil fuel usage and an energy-intensive lifestyle intensifies.
-(Talk more about the math behind these models? Stochastic Differential models or talk about a few of the main models in use today?)
+while SSP585 assumes a worst case scenario where fossil fuel usage and an energy-intensive lifestyle intensifies. This was the basis behind the Intergovernmental
+Panel on Climate Change and its 2021 IPCC sixth assessment report which published the newest generation of climate models from Coupled Model Intercomparison Project
+or CMIP6.\cite{lee2021future} CMIP6 is an ensemble of models made by various institutions based on the ability of each group to contribute to them and as research has become
+far more interconnected in the modern day, many aspects such as expertise, code and literature are shared between groups and as such many of the models that contribute to CMIP6
+are highly likely to be dependent.\cite{ClimateModelDependenceandtheEnsembleDependenceTransformationofCMIPProjections}. The degree to which aspects are shared between these models
+is difficult to ascertain as this would require a qualitative investigation into the personel, code and references between each component of CMIP6. However, one would expect
+there to be some graph structure that links all models together through some dependence.
 
-{\noindent} In recent years, Graph neural networks have become the premier method of processing data with non-cartesian structure. Much of this data exists in the world
-in applications such as chemical analysis, social networks and link prediction (Insert references for each from reading). The main feature of GNNs is the message passing framework,
-where information from features on each node is passed to neighbouring nodes then aggregated and embedded. This is then propagated through a neural network structure to
-perform a range of tasks on the entire graph, individual nodes and edges.        
+{\noindent} There are many different kinds of machine learning but the advent of deep learning has led to countless advancements in many practical applications. 
+The ability of deep learning models to extract high-level, abstract features from raw data by using many layers of simple representations have developed increasingly
+sophisticated and near human level understanding of input.\cite{Goodfellow-et-al-2016} (Talk about CNN's?) In recent years, Graph neural networks have become the premier method of processing 
+data with non-cartesian structure. Much of this data exists in the world in applications such as chemical analysis\cite{xu2022chemistry}, social networks\cite{rath2020detecting} 
+and link prediction\cite{zhang2020revisiting}.
+The main feature of GNNs is the message passing framework, where information from features on each node is passed to neighbouring nodes then aggregated and embedded. 
+This is then propagated through a neural network structure to perform a range of tasks on the entire graph, individual nodes or edges.
+The modern age has also produced many advancements in computing and big data which led to an exponential growth in the size and complexity of these deep learning models.
+The well-known Generative-Pretrained Transformer 3 (GPT-3) model by OpenAI commonly used for ChatGPT had variants with 175 billion parameters which required 800 gigabytes to store.\cite{radford2018improving}
+Although Deep Neural Networks (DNN) tend to generalise well even when overparameterised\cite{Cao_Gu_2020}, this level of overparameterisation makes inference 
+and prediction highly costly when the same performance could be achieved on a far more simple model. Some studies introduced the concept of the
+Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} which explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
+still training to full accuracy. When training a traditional neural network, this was done by instability analysis etc. etc.? (should i talk about this?)
+Chen et.al.\cite{chen2021unified} extended the LTH to Graph Neural Networks by co-simplifying both the adjacentcy matrix of the graph and the weights in 
+the network of the model. By using two masks for the edges in the graph and the weights of the neural network, this algorithm could zero out unimportant edges 
+in the model and reduce computational costs by over 85\% depending on the size of the graph whilst maintaining a baseline accuracy.
 
-{\section{Approach}}\label{approach}
-Overview on my goal and how I am testing this goal. 
+
+{\section{Motivation}}\label{motivation}
+The goal of this thesis is to investigate whether these graph sparisifcation techniques can be used to determine some dependence structure within a graph of models which
+are all attempting to model the same scenario in the climate. 
+
+{\section{Outline}}\label{approach}
+Overview of each section and the methods of each. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Background and Related Techniques}
+\chapter{Methods and Related Techniques}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -286,20 +310,13 @@ used etc. A lot of summaries of the papers saved in the papers folder need to be
 finish this section.
 
 
-%%%%%%%%%%%
-\section{Climate Models}\label{climate}
-%%%%%%%%%%%
-What climate models are used for etc.
-Use Yanan's climate papers.
-
-
 %%%%%%%%%%%%
 \section{Deep Learning}\label{nn}
 %%%%%%%%%%%%
 Traditional machine learning techiques generally require meaningful data cleaning and feature creation which was costly to develop and 
 often had many errors. The advent of deep learning provided algorithms that could automatically extract higher-level features from raw data.\cite{deng-deep-learning} The MLP 
-The multi-layer perceptron\cite{rumelhart1986learning} is formulated using linked layers of nodes which transforms a set of inputs into an output. For a regression task,
-the MLP attempts to approximate some ground-truth function which may also be non-linear. This can be represented as
+The multi-layer perceptron\cite{rumelhart1986learning} is formulated using linked layers of nodes which transforms a set of inputs into an output.
+The MLP attempts to approximate some ground-truth function which may also be non-linear. The single layer version of this model can be represented as
 
 \begin{equation}
     f(x) = \sigma(\Theta^T X)  \; \text{where}  \; \Theta= \begin{bmatrix} b \\ \theta_1 \\ \vdots \\ \theta_n \end{bmatrix} \text{and} \; X = \begin{bmatrix} 1 \\ x_1 \\ \vdots \\ x_n \end{bmatrix}
@@ -393,12 +410,44 @@ Show how this is an alternative in graph discovery.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+%%%%%%%%%%%
+\section{Climate Models}\label{climate}
+%%%%%%%%%%%
+What climate models are used for etc.
+Use Yanan's climate papers.
+
+{\noindent} Climate models are constantly being updated as many different groups and institutions implement higher spatial resolutions and 
+new physical, chemical, biological and geological processes into these models. These models are the primary method of understanding climate change.
+These models often use terrabytes of data and require some of the largest supercomputers in the world to generate their predictions. 
+
+(Can we talk about how one model works?)
+
+{\noindent}CMIP6 models are the premier models for this task but while it was expected to contain around 100 models, only 40 have been published so far.
+However, the results from these 40 models so far indicates a far greater climate sensitivity when compared to the previous generation of CMIP5 models.\cite{Harrisson_2021}
+This indicates a far greater impact from newer processes that were added in CMIP6 towards the future climate. The figure below shows general trend of a single
+scenario that each model estimates.
+
+\begin{figure}[!h]
+    \includegraphics[width=7cm]{model_agg_global_avg_tas}
+    \includegraphics[width=7cm]{model_global_avg_tas}
+    \centering
+\end{figure}
+
+Looking at a plot of all the models, there is a clear correlation between all the models and the correlation heatmap affirms this as the correlation between each
+ranges from 0.96--1. 
+
+\begin{figure}[t]
+    \includegraphics[width=10cm]{model_corr}
+    \centering
+\end{figure}
+
 %%%%%%%%%%%%%%%%
 \section{Dataset}\label{data}
-The datasets used are from the CIMP6 scenario runs made available on the KNMI Climate Explorer website. The KNMI is part of the
+The datasets used are from the CMIP6 scenario runs made available on the KNMI Climate Explorer website. The KNMI is part of the
 World Meteoriological Organization (WMO)\cite{}. The scenario runs include monthly predictions for temperature, min temperature, max temperature
-precipitation, radiation and pressure all over the globe in a 192x144 grid between 1850-2100 for 40 different models. For simplicity and brievity, 
-this was filtered to just temperature during the 1960-1970 period in just Australia. 
+precipitation, radiation and pressure all over the globe in a 192$\times$144 grid between 1850--2100 for 40 different models. Due to the time and computational
+limitations, this was filtered to just temperature during the 1960--1980 period in just Australia or latitudes -44{\textdegree} to -12{\textdegree} 
+and longtitudes 288{\textdegree} to 336{\textdegree}. 
 
 Talk a bit more about how these models in the dataset are all related by certain parts.
 %%%%%%%%%%%%%%%%
