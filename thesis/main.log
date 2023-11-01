@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  24 OCT 2023 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  1 NOV 2023 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -151,42 +151,61 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks30
 \AP@partial=\box53
 \AP@footins=\box54
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box55
+\extrarowheight=\dimen153
+\NC@list=\toks31
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box56
 )
-\c@theorem=\count272
+\TX@col@width=\dimen154
+\TX@old@table=\dimen155
+\TX@old@col=\dimen156
+\TX@target=\dimen157
+\TX@delta=\dimen158
+\TX@cols=\count272
+\TX@ftn=\toks32
+)
+\c@theorem=\count273
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count273
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count274
+\l__pdf_internal_box=\box57
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
-\scratchdimen=\dimen152
-\scratchbox=\box56
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count277
-\MPscratchDim=\dimen153
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count275
+\scratchdimen=\dimen159
+\scratchbox=\box58
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen160
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -196,14 +215,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <unsw-crest.jpg, id=1, 147.6717pt x 154.176pt>
 File: unsw-crest.jpg Graphic file (type jpg)
 <use unsw-crest.jpg>
-Package pdftex.def Info: unsw-crest.jpg  used on input line 171.
+Package pdftex.def Info: unsw-crest.jpg  used on input line 172.
 (pdftex.def)             Requested size: 142.26378pt x 148.54362pt.
  [1
 
 {C:/Users/jqcla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./unsw-crest.jpg>] [0
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
@@ -242,17 +261,17 @@ Chapter 3.
 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png, id=65, 956.8548pt x 505.1673pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png  used on input line 431.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png  used on input line 443.
 (pdftex.def)             Requested size: 199.16928pt x 105.14786pt.
 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png, id=67, 1305.1962pt x 616.4631pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png  used on input line 432.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png  used on input line 444.
 (pdftex.def)             Requested size: 199.16928pt x 94.06456pt.
 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png, id=68, 1128.8574pt x 987.9309pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png  used on input line 440.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png  used on input line 452.
 (pdftex.def)             Requested size: 284.52756pt x 249.0021pt.
 [6
 
@@ -282,15 +301,15 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3094 strings out of 475550
- 47184 string characters out of 5762533
- 1927238 words of memory out of 5000000
- 24281 multiletter control sequences out of 15000+600000
+ 3228 strings out of 475550
+ 49283 string characters out of 5762533
+ 1928238 words of memory out of 5000000
+ 24410 multiletter control sequences out of 15000+600000
  566143 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,8n,65p,324b,326s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,432b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (24 pages, 1801920 bytes).
+Output written on main.pdf (24 pages, 1809162 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

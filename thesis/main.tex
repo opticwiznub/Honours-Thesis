@@ -21,6 +21,7 @@
 \usepackage{latexsym,amsmath}
 \usepackage{graphicx}
 \usepackage{afterpage}
+\usepackage{tabularx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -146,7 +147,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Title?}
+\title{Graph Learning Methods for Climate Models with Graph Sparsification}
 
 \authornameonly{Justin Clarke}
 
@@ -254,42 +255,49 @@ to quantify these relationships with graph sparsification techniques.
 
 {\section{Background}}\label{background}
 
-{\noindent} The simplest climate modeles have existed since the 1950's with the very first computers modelling small two-dimensional climates\cite{edwards2011history}. 
-Modern models have become increasingly more complex in part due to developments in computational techniques and the large amount of data available worldwide to train these models. 
+{\noindent}The simplest climate models have existed since the 1950's with the very first computers modelling small two-dimensional climates\cite{edwards2011history}. 
+Modern models have become increasingly more complex in part due to developments in computational techniques and the large amount of data available worldwide to train these models.\cite{article}
 A common approach to studying the complex system of Earth's climate has been through sophisticated mathematical modelling with a range of temporal and spatial data\cite{Kulinich_2022}. 
-One of the most important areas of study that climate science is att empting to answer is the effect of human greenhouse gas emissions on the Earth and its future.
-Understanding this is important as it can guide us on the potential harms we may be causing to environment and life around us and lead us to implement change. As such, many models
-and ``scenario runs'' have been developed which predict various outcomes in temperature, precipitation, air pressure and solar radiation given a certain level of 
-societal development. On the lower end, SSP126 assumes an increasingly sustainable world where consumption is oriented towards minimising material resource and energy usage
-while SSP585 assumes a worst case scenario where fossil fuel usage and an energy-intensive lifestyle intensifies. This was the basis behind the Intergovernmental
+One of the most important areas of study that climate science is attempting to answer is the effect of human greenhouse gas emissions on the Earth and its future.
+Understanding this is important as it can inform us on the potential harms to society and the environment and guide policy makers implementing change. As such, many models
+and ``scenario runs'' have been developed which predict various outcomes in temperature, precipitation, air pressure and solar radiation given a certain levels of 
+Shared Socioeconomic Pathways (SSP).\cite{RIAHI2017153} These SSP's represent a broad set of possible changes in population, economic and technological growth, and urbanisation
+that would influence future greenhouse gas emissions. These are directly related to Representative Concentration Pathways (RCP) introduced by CMIP5 which are categorisations based on the 
+estimated future concentrations of greenhouse gases in the atmosphere.\cite{Harrisson_2021_SSP}
+
+\begin{table}[h]
+    \begin{tabularx}{\textwidth}{|c|X|}
+        \hline
+        \textbf{SSP} & \textbf{Description}                                                                                                                                                                                                                                                                      \\ \hline
+        SSP1         & Sustainability: The world shifts gradually, but pervasively, toward a more sustainable path, emphasizing more inclusive development that respects perceived environmental boundaries.                                                                                                     \\ \hline
+        SSP2         & Middle of the road: The world follows a path in which social, economic, and technological trends do not shift markedly from historical patterns.                                                                                                                                          \\ \hline
+        SSP3         & Regional rivalry: A resurgent nationalism, concerns about competitiveness and security, and regional conflicts push countries to increasingly focus on domestic or, at most, regional issues.                                                                                             \\ \hline
+        SSP4         & Inequality: Highly unequal investments in human capital, combined with increasing disparities in economic opportunity and political power, lead to increasing inequalities and stratification both across and within countries.                                                           \\ \hline
+        SSP5         & Fossil-fueled development: This world places increasing faith in competitive markets, innovation and participatory societies to produce rapid technological progress and development of human capital as the path to sustainable development. Global markets are increasingly integrated. \\ \hline    \end{tabularx}
+\end{table}
+    
+
+\noindent On the lower end, SSP126 assumes an increasingly sustainable world where consumption is oriented towards minimising material resource and energy usage
+while SSP585 assumes a worst case scenario where fossil fuel usage and an energy-intensive lifestyle intensifies. These SSPs' were the basis behind the Intergovernmental
 Panel on Climate Change and its 2021 IPCC sixth assessment report which published the newest generation of climate models from Coupled Model Intercomparison Project
-or CMIP6.\cite{lee2021future} CMIP6 is an ensemble of models made by various institutions based on the ability of each group to contribute to them and as research has become
-far more interconnected in the modern day, many aspects such as expertise, code and literature are shared between groups and as such many of the models that contribute to CMIP6
-are highly likely to be dependent.\cite{ClimateModelDependenceandtheEnsembleDependenceTransformationofCMIPProjections}. The degree to which aspects are shared between these models
+or CMIP6.\cite{lee2021future} CMIP6 is an ensemble of models, with each base model developed by various institutions based on the ability of each group to contribute to them and as research has become
+far more interconnected in the modern era, many aspects such as expertise, code and literature are shared between groups. As such many of the models that contribute to CMIP6
+are highly likely to be dependent.\cite{ClimateModelDependenceandtheEnsembleDependenceTransformationofCMIPProjections}. Esemble methods are more performant when the base models
+are diverse and independent\cite{KOTU201919} but the degree of dependence between these models
 is difficult to ascertain as this would require a qualitative investigation into the personel, code and references between each component of CMIP6. However, one would expect
 there to be some graph structure that links all models together through some dependence.
 
-{\noindent} There are many different kinds of machine learning but the advent of deep learning has led to countless advancements in many practical applications. 
+{\noindent}There are many different kinds of machine learning but the advent of deep learning has led to countless advancements in many practical applications. 
 The ability of deep learning models to extract high-level, abstract features from raw data by using many layers of simple representations have developed increasingly
-sophisticated and near human level understanding of input.\cite{Goodfellow-et-al-2016} (Talk about CNN's?) In recent years, Graph neural networks have become the premier method of processing 
+sophisticated and near human level understanding of input.\cite{Goodfellow-et-al-2016} The next development in neural networks came from neuroscientific principles\cite{Hubel_Wiesel_1962} with 
+Convolutional Neural Networks which could train models to be equivariant to translations in data and process data with grid-like structure. In recent years, Graph neural networks have become the premier method of processing 
 data with non-cartesian structure. Much of this data exists in the world in applications such as chemical analysis\cite{xu2022chemistry}, social networks\cite{rath2020detecting} 
-and link prediction\cite{zhang2020revisiting}.
-The main feature of GNNs is the message passing framework, where information from features on each node is passed to neighbouring nodes then aggregated and embedded. 
-This is then propagated through a neural network structure to perform a range of tasks on the entire graph, individual nodes or edges.
-The modern age has also produced many advancements in computing and big data which led to an exponential growth in the size and complexity of these deep learning models.
-The well-known Generative-Pretrained Transformer 3 (GPT-3) model by OpenAI commonly used for ChatGPT had variants with 175 billion parameters which required 800 gigabytes to store.\cite{radford2018improving}
-Although Deep Neural Networks (DNN) tend to generalise well even when overparameterised\cite{Cao_Gu_2020}, this level of overparameterisation makes inference 
-and prediction highly costly when the same performance could be achieved on a far more simple model. Some studies introduced the concept of the
-Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} which explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
-still training to full accuracy. When training a traditional neural network, this was done by instability analysis etc. etc.? (should i talk about this?)
-Chen et.al.\cite{chen2021unified} extended the LTH to Graph Neural Networks by co-simplifying both the adjacentcy matrix of the graph and the weights in 
-the network of the model. By using two masks for the edges in the graph and the weights of the neural network, this algorithm could zero out unimportant edges 
-in the model and reduce computational costs by over 85\% depending on the size of the graph whilst maintaining a baseline accuracy.
 
 
 {\section{Motivation}}\label{motivation}
 The goal of this thesis is to investigate whether these graph sparisifcation techniques can be used to determine some dependence structure within a graph of models which
-are all attempting to model the same scenario in the climate. 
+are all attempting to model the same scenario in the climate. Graph structure and dependence learning is already possible with unsupervised methods such as Variational Graph Autoencoders (VGAE)\cite{pmlr-v97-yu19a}
+but to our best knowledge, graph sparsification has not been used before as a method to infer dependence. Existing methods for determining multiple correlation such
 
 {\section{Outline}}\label{approach}
 Overview of each section and the methods of each. 
@@ -344,7 +352,7 @@ over our input and the resulting feature map $\textbf{Z} = \textbf{X} \ast \text
 
 \noindent The novelty of the convolutional layer compared to a linear layer is that the kernel is shared across all locations of the input and therefore
 if a pattern in the input moves, the corresponding output will also follow this movement. This provides shift equivariance which is something that early MLP's
-failed to achieve. \cite{pml1Book}
+failed to achieve.\cite{pml1Book}
 
 %%%%%%%%%%%%
 \section{Graph Neural Networks}\label{gnn}
@@ -357,23 +365,27 @@ The Graph Neural Network (GNN) was developed for this purpose and they can be br
 and spectral or spatial methods within Graph Convolutional Network (GCN) research.\cite{kipf2017semisupervised} This propagation rule is as follows:
 
 \begin{equation}
-    H^{(l+1)} = \sigma(\tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} H^{(l) W^{(l)}})
+    H^{(l+1)} = \sigma(\tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} H^{(l)} W^{(l)})
 \end{equation}
 
-Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph $\mathcal{G}$ with self-connections from the identity matrix $I_N$.
+\noindent Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph $\mathcal{G}$ with self-connections from the identity matrix $I_N$.
 $\tilde{D_{ii}} = \sum_{j} \tilde{A}_{ij} $ is the row sum of the adjacency matrix and $W^{(l)}$ is a layer trainable weight matrix. 
 $\sigma(.)$ is an activation function such as $\text{ReLU}(.) = \text{max}(0, .)$. $H^{(l)} \in \mathbb{R}^{N \times D}$ is the matrix of activations
 in the lth layer with $H^0 = X$. 
 
 
-\section{Sparsification Graph Neural Network}\label{vae}
-New section for graph sparsification?
-Towards sparisification of GNN's \cite{peng2023sparsification}
-and unified lottery ticket hypothesis \cite{chen2021unified} for gnn's should be reviewed here.
+\section{Sparsification Graph Neural Network}\label{sparse-learning}
 
-In recent years, the size of deep learning models has grown exponentially with some models using billions of parameters. Although neural networks do not 
-tend to be affected greatly by overparameterisation, these models have become increasingly costly both in terms of inference and prediction. The 
-Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
+Hornik\cite{HORNIK1991251} showed that
+in a single layer MLP and provided enough hidden neuron units, the neural network could model any smooth truth function as for each added neuron, the decision space can be
+segmented to conform to any response. 
+Many experiments have also found that deep networks with many layers perform better than shallow ones\cite{NIPS2014_109d2dd3}\cite{pmlr-v70-raghu17a}
+as the usage of many layers allows deeper layers to leverage features produced by earlier layers.
+The noveltly of neural networks is that they do not tend to be affected greatly by overparameterisation\cite{Cao_Gu_2020}, and as they generally improve with more neurons
+and layers these models have grown exponentially in size with some models using billions of parameters and most of these models having more parameters than training observations
+which has made both inference and prediction incredibly costly.  (Reference some math from the number of linear decision regions and some graphs?)
+ 
+The Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
 still training to full accuracy. When training a traditional neural network, this was done by instability analysis etc. etc.? (should i talk about this?)
 
 Chen et. al.\cite{chen2021unified} extended the LTH to Graph Neural Networks by co-simplifying both the adjacentcy matrix of the graph and the weights in 

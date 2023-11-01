@@ -38,14 +38,36 @@ Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock {\em Deep Learning}.
 \newblock MIT Press, 2016.
 
+\bibitem{Harrisson_2021_SSP}
+Thomas Harrisson.
+\newblock Explainer: How ‘shared socioeconomic pathways’ explore future
+  climate change, Apr 2018.
+
 \bibitem{Harrisson_2021}
 Thomas Harrisson.
 \newblock Cmip6: The next generation of climate models explained, Oct 2021.
+
+\bibitem{HORNIK1991251}
+Kurt Hornik.
+\newblock Approximation capabilities of multilayer feedforward networks.
+\newblock {\em Neural Networks}, 4(2):251--257, 1991.
+
+\bibitem{Hubel_Wiesel_1962}
+D.~H. Hubel and T.~N. Wiesel.
+\newblock Receptive fields, binocular interaction and functional architecture
+  in the cat’s visual cortex.
+\newblock {\em The Journal of Physiology}, 160(1):106–154, 1962.
 
 \bibitem{kipf2017semisupervised}
 Thomas~N. Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks,
   2017.
+
+\bibitem{KOTU201919}
+Vijay Kotu and Bala Deshpande.
+\newblock Chapter 2 - data science process.
+\newblock In Vijay Kotu and Bala Deshpande, editors, {\em Data Science (Second
+  Edition)}, pages 19--37. Morgan Kaufmann, second edition edition, 2019.
 
 \bibitem{Kulinich_2022}
 Max Kulinich.
@@ -63,20 +85,31 @@ June-Yi Lee, Jochem Marotzke, Govindasamy Bala, Long Cao, Susanna Corti, John~P
   of working group I to the sixth assessment report of the intergovernmental
   panel on climate change}, pages 553--672. Cambridge University Press, 2021.
 
+\bibitem{NIPS2014_109d2dd3}
+Guido~F Montufar, Razvan Pascanu, Kyunghyun Cho, and Yoshua Bengio.
+\newblock On the number of linear regions of deep neural networks.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~Lawrence, and K.Q.
+  Weinberger, editors, {\em Advances in Neural Information Processing Systems},
+  volume~27. Curran Associates, Inc., 2014.
+
 \bibitem{pml1Book}
 Kevin~P. Murphy.
 \newblock {\em Probabilistic Machine Learning: An introduction}.
 \newblock MIT Press, 2022.
 
-\bibitem{peng2023sparsification}
-Hongwu Peng, Deniz Gurevin, Shaoyi Huang, Tong Geng, Weiwen Jiang, Omer Khan,
-  and Caiwen Ding.
-\newblock Towards sparsification of graph neural networks, 2023.
+\bibitem{article}
+Jonathan Overpeck, Gerald Meehl, Sandrine Bony, and David Easterling.
+\newblock Climate data challenges in the 21st century.
+\newblock {\em Science (New York, N.Y.)}, 331:700--2, 02 2011.
 
-\bibitem{radford2018improving}
-Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, et~al.
-\newblock Improving language understanding by generative pre-training.
-\newblock 2018.
+\bibitem{pmlr-v70-raghu17a}
+Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, and Jascha
+  Sohl-Dickstein.
+\newblock On the expressive power of deep neural networks.
+\newblock In Doina Precup and Yee~Whye Teh, editors, {\em Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of {\em
+  Proceedings of Machine Learning Research}, pages 2847--2854. PMLR, 06--11 Aug
+  2017.
 
 \bibitem{rath2020detecting}
 Bhavtosh Rath, Aadesh Salecha, and Jaideep Srivastava.
@@ -84,6 +117,22 @@ Bhavtosh Rath, Aadesh Salecha, and Jaideep Srivastava.
   representation learning.
 \newblock In {\em 2020 IEEE/ACM International Conference on Advances in Social
   Networks Analysis and Mining (ASONAM)}, pages 182--189. IEEE, 2020.
+
+\bibitem{RIAHI2017153}
+Keywan Riahi, Detlef~P. {van Vuuren}, Elmar Kriegler, Jae Edmonds, Brian~C.
+  O’Neill, Shinichiro Fujimori, Nico Bauer, Katherine Calvin, Rob Dellink,
+  Oliver Fricko, Wolfgang Lutz, Alexander Popp, Jesus~Crespo Cuaresma, Samir
+  KC, Marian Leimbach, Leiwen Jiang, Tom Kram, Shilpa Rao, Johannes Emmerling,
+  Kristie Ebi, Tomoko Hasegawa, Petr Havlik, Florian Humpenöder, Lara~Aleluia
+  {Da Silva}, Steve Smith, Elke Stehfest, Valentina Bosetti, Jiyong Eom, David
+  Gernaat, Toshihiko Masui, Joeri Rogelj, Jessica Strefler, Laurent Drouet,
+  Volker Krey, Gunnar Luderer, Mathijs Harmsen, Kiyoshi Takahashi, Lavinia
+  Baumstark, Jonathan~C. Doelman, Mikiko Kainuma, Zbigniew Klimont, Giacomo
+  Marangoni, Hermann Lotze-Campen, Michael Obersteiner, Andrzej Tabeau, and
+  Massimo Tavoni.
+\newblock The shared socioeconomic pathways and their energy, land use, and
+  greenhouse gas emissions implications: An overview.
+\newblock {\em Global Environmental Change}, 42:153--168, 2017.
 
 \bibitem{rumelhart1986learning}
 David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
@@ -107,9 +156,12 @@ Katherine Xu and Janice Lan.
 \newblock Chemistry insights for large pretrained {GNN}s.
 \newblock In {\em NeurIPS 2022 AI for Science: Progress and Promises}, 2022.
 
-\bibitem{zhang2020revisiting}
-Muhan Zhang, Pan Li, Yinglong Xia, Kai Wang, and Long Jin.
-\newblock Revisiting graph neural networks for link prediction.
-\newblock 2020.
+\bibitem{pmlr-v97-yu19a}
+Yue Yu, Jie Chen, Tian Gao, and Mo~Yu.
+\newblock {DAG}-{GNN}: {DAG} structure learning with graph neural networks.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, {\em
+  Proceedings of the 36th International Conference on Machine Learning},
+  volume~97 of {\em Proceedings of Machine Learning Research}, pages
+  7154--7163. PMLR, 09--15 Jun 2019.
 
 \end{thebibliography}
