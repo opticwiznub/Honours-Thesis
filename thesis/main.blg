@@ -6,45 +6,49 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for ""
-You've used 26 entries,
+Warning--empty booktitle in Knutti2010
+Warning--empty school in nouri2021improving
+Warning--empty journal in radford2018improving
+Warning--empty journal in zhang2020revisiting
+You've used 33 entries,
             2118 wiz_defined-function locations,
-            664 strings with 9889 characters,
-and the built_in function-call counts, 10632 in all, are:
-= -- 958
-> -- 723
-< -- 8
-+ -- 285
-- -- 255
-* -- 828
-:= -- 1794
-add.period$ -- 79
-call.type$ -- 26
-change.case$ -- 196
+            704 strings with 11168 characters,
+and the built_in function-call counts, 12880 in all, are:
+= -- 1161
+> -- 857
+< -- 9
++ -- 339
+- -- 301
+* -- 988
+:= -- 2188
+add.period$ -- 100
+call.type$ -- 33
+change.case$ -- 237
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 334
-empty$ -- 720
-format.name$ -- 255
-if$ -- 2177
+cite$ -- 37
+duplicate$ -- 415
+empty$ -- 878
+format.name$ -- 301
+if$ -- 2629
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 22
-newline$ -- 128
-num.names$ -- 60
-pop$ -- 239
+int.to.str$ -- 33
+missing$ -- 29
+newline$ -- 163
+num.names$ -- 74
+pop$ -- 290
 preamble$ -- 1
-purify$ -- 173
+purify$ -- 209
 quote$ -- 0
-skip$ -- 254
+skip$ -- 311
 stack$ -- 0
-substring$ -- 492
-swap$ -- 83
-text.length$ -- 8
+substring$ -- 588
+swap$ -- 93
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
-warning$ -- 0
-while$ -- 80
-width$ -- 28
-write$ -- 276
-(There was 1 warning)
+type$ -- 124
+warning$ -- 4
+while$ -- 98
+width$ -- 35
+write$ -- 346
+(There were 5 warnings)

@@ -58,10 +58,23 @@ D.~H. Hubel and T.~N. Wiesel.
   in the cat’s visual cortex.
 \newblock {\em The Journal of Physiology}, 160(1):106–154, 1962.
 
+\bibitem{inmon2007tapping}
+W.H. Inmon and A.~Nesavich.
+\newblock {\em Tapping into Unstructured Data: Integrating Unstructured Data
+  and Textual Analytics into Business Intelligence}.
+\newblock Pearson Education, 2007.
+
 \bibitem{kipf2017semisupervised}
 Thomas~N. Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks,
   2017.
+
+\bibitem{Knutti2010}
+Reto Knutti, Gab Abramowitz, M.~Collins, Veronika Eyring, Peter Gleckler, Bruce
+  Hewitson, and Linda Mearns.
+\newblock Good practice guidance paper on assessing and combining multi model
+  climate projections.
+\newblock pages 1--15, 01 2010.
 
 \bibitem{KOTU201919}
 Vijay Kotu and Bala Deshpande.
@@ -97,10 +110,27 @@ Kevin~P. Murphy.
 \newblock {\em Probabilistic Machine Learning: An introduction}.
 \newblock MIT Press, 2022.
 
-\bibitem{article}
+\bibitem{nouri2021improving}
+Sara Nouri~Golmaei.
+\newblock {\em Improving the Performance of Clinical Prediction Tasks by Using
+  Structured and Unstructured Data Combined with a Patient Network}.
+\newblock PhD thesis, 2021.
+
+\bibitem{Overpeck2011}
 Jonathan Overpeck, Gerald Meehl, Sandrine Bony, and David Easterling.
 \newblock Climate data challenges in the 21st century.
 \newblock {\em Science (New York, N.Y.)}, 331:700--2, 02 2011.
+
+\bibitem{Palmer2008}
+Tim Palmer and Phoebe Williams.
+\newblock Stochastic physics and climate models.
+\newblock {\em Philosophical transactions. Series A, Mathematical, physical,
+  and engineering sciences}, 366:2421--7, 04 2008.
+
+\bibitem{radford2018improving}
+Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, et~al.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
 
 \bibitem{pmlr-v70-raghu17a}
 Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, and Jascha
@@ -134,6 +164,12 @@ Keywan Riahi, Detlef~P. {van Vuuren}, Elmar Kriegler, Jae Edmonds, Brian~C.
   greenhouse gas emissions implications: An overview.
 \newblock {\em Global Environmental Change}, 42:153--168, 2017.
 
+\bibitem{Rosenblatt_1958}
+F.~Rosenblatt.
+\newblock The perceptron: A probabilistic model for information storage and
+  organization in the brain.
+\newblock {\em Psychological Review}, 65(6):386–408, 1958.
+
 \bibitem{rumelhart1986learning}
 David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
 \newblock Learning representations by back-propagating errors.
@@ -163,5 +199,10 @@ Yue Yu, Jie Chen, Tian Gao, and Mo~Yu.
   Proceedings of the 36th International Conference on Machine Learning},
   volume~97 of {\em Proceedings of Machine Learning Research}, pages
   7154--7163. PMLR, 09--15 Jun 2019.
+
+\bibitem{zhang2020revisiting}
+Muhan Zhang, Pan Li, Yinglong Xia, Kai Wang, and Long Jin.
+\newblock Revisiting graph neural networks for link prediction.
+\newblock 2020.
 
 \end{thebibliography}

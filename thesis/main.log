@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  1 NOV 2023 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  4 NOV 2023 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,66 +252,74 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 ]
 Chapter 1.
-[1] [2]
-Chapter 2.
-[3
 
-] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 258--265
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1] [2] [3] [4]
+Chapter 2.
+[5
+
+] [6] [7]
 Chapter 3.
-<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png, id=65, 956.8548pt x 505.1673pt>
+<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png, id=71, 956.8548pt x 505.1673pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png  used on input line 443.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png  used on input line 489.
 (pdftex.def)             Requested size: 199.16928pt x 105.14786pt.
-<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png, id=67, 1305.1962pt x 616.4631pt>
+<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png, id=73, 1305.1962pt x 616.4631pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png  used on input line 444.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png  used on input line 490.
 (pdftex.def)             Requested size: 199.16928pt x 94.06456pt.
-<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png, id=68, 1128.8574pt x 987.9309pt>
+<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png, id=74, 1128.8574pt x 987.9309pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png  used on input line 452.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png  used on input line 498.
 (pdftex.def)             Requested size: 284.52756pt x 249.0021pt.
-[6
+[8
 
- <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png> <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>] [7 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>] [8]
+ <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png> <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>] [9 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>]
 Chapter 4.
-[9
-
-]
-Chapter 5.
 [10
 
 ]
-Chapter 6.
+Chapter 5.
 [11
 
 ]
-Chapter 7.
+Chapter 6.
 [12
 
-] (main.bbl [13
+]
+Chapter 7.
+[13
+
+] (main.bbl [14
 
 
-]) [14] (main.aux)
+] [15]) [16] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3228 strings out of 475550
- 49283 string characters out of 5762533
- 1928238 words of memory out of 5000000
- 24410 multiletter control sequences out of 15000+600000
+ 3240 strings out of 475550
+ 49519 string characters out of 5762533
+ 1929238 words of memory out of 5000000
+ 24422 multiletter control sequences out of 15000+600000
  566143 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,10n,65p,432b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,386b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (24 pages, 1809162 bytes).
+Output written on main.pdf (26 pages, 1819153 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
