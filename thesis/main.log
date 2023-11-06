@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  4 NOV 2023 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.10)  6 NOV 2023 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -170,67 +170,233 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen158
 \TX@cols=\count272
 \TX@ftn=\toks32
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-06-25 v7.01a Hypertext links for LaTeX
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-\c@theorem=\count273
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-06-18 v2.52 Cross-referencing by name of section
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count273
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-06-25 v7.01a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-06-25 v7.01a Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count278
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen160
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-06-25 v7.01a Hyperref driver for pdfTeX
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip61
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count285
+\float@exts=\toks33
+\float@box=\box57
+\@float@everytoks=\toks34
+\@floatcapt=\box58
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks35
+\c@algorithm=\count286
+) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+ (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count287
+\c@ALG@rem=\count288
+\c@ALG@nested=\count289
+\ALG@tlm=\skip62
+\ALG@thistlm=\skip63
+\c@ALG@Lnr=\count290
+\c@ALG@blocknr=\count291
+\c@ALG@storecount=\count292
+\c@ALG@tmpcounter=\count293
+\ALG@tmplength=\skip64
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+\c@theorem=\count294
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box59
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
-\scratchdimen=\dimen159
-\scratchbox=\box58
-\nofMPsegments=\count276
-\nofMParguments=\count277
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count278
-\MPscratchDim=\dimen160
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count296
+\scratchdimen=\dimen163
+\scratchbox=\box60
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen164
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks37
 ) (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<unsw-crest.jpg, id=1, 147.6717pt x 154.176pt>
+Package hyperref Info: Link coloring OFF on input line 171.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+<unsw-crest.jpg, id=106, 147.6717pt x 154.176pt>
 File: unsw-crest.jpg Graphic file (type jpg)
 <use unsw-crest.jpg>
-Package pdftex.def Info: unsw-crest.jpg  used on input line 172.
+Package pdftex.def Info: unsw-crest.jpg  used on input line 175.
 (pdftex.def)             Requested size: 142.26378pt x 148.54362pt.
  [1
 
 {C:/Users/jqcla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./unsw-crest.jpg>] [0
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
-[1] [1
+[1]
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 \prefacesection{Acknowledgements}
+                                        [1
 
-] [2] [2
+] [2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \prefacesection{Abstract}
+                                [2
 
-] [3] [3] (main.toc
+] [3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.246 \afterpreface
+                    [3] (main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -243,8 +409,8 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
  (C:\Users\jqcla\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ))
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
  [4
 
@@ -253,73 +419,121 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--265
+Underfull \hbox (badness 10000) in paragraph at lines 261--268
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1] [2] [3] [4]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.316 
+       [1] [2
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.327 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.327 
+      ] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 365--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--373
+
+ []
+
+[4]
 Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--437
+
+ []
+
 [5
 
-] [6] [7]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 466--474
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 481--486
+
+ []
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 507.
+[7] [8]
 Chapter 3.
-<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png, id=71, 956.8548pt x 505.1673pt>
+<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png, id=323, 956.8548pt x 505.1673pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png  used on input line 489.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png  used on input line 547.
 (pdftex.def)             Requested size: 199.16928pt x 105.14786pt.
-<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png, id=73, 1305.1962pt x 616.4631pt>
+<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png, id=325, 1305.1962pt x 616.4631pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png  used on input line 490.
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png  used on input line 548.
 (pdftex.def)             Requested size: 199.16928pt x 94.06456pt.
-<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png, id=74, 1128.8574pt x 987.9309pt>
+<C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png, id=326, 1128.8574pt x 987.9309pt>
 File: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png Graphic file (type png)
 <use C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>
-Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png  used on input line 498.
-(pdftex.def)             Requested size: 284.52756pt x 249.0021pt.
-[8
+Package pdftex.def Info: C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png  used on input line 553.
+(pdftex.def)             Requested size: 199.16928pt x 174.29243pt.
+[9
 
- <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png> <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>] [9 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>]
+ <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_agg_global_avg_tas.png> <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_global_avg_tas.png>] [10 <C:/Users/jqcla/Documents/GitHub/Honours-Thesis/figures/model_corr.png>]
 Chapter 4.
-[10
-
-]
-Chapter 5.
 [11
 
 ]
-Chapter 6.
+Chapter 5.
 [12
 
 ]
-Chapter 7.
+Chapter 6.
 [13
 
-] (main.bbl [14
+]
+Chapter 7.
+[14
+
+] (main.bbl [15
 
 
-] [15]) [16] (main.aux)
+] [16]) [17] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0CD4450C34646DC0EDF71FBA1522C108;3475.
  ) 
 Here is how much of TeX's memory you used:
- 3240 strings out of 475550
- 49519 string characters out of 5762533
- 1929238 words of memory out of 5000000
- 24422 multiletter control sequences out of 15000+600000
- 566143 words of font info for 67 fonts, out of 8000000 for 9000
+ 11080 strings out of 475550
+ 171636 string characters out of 5762533
+ 1930238 words of memory out of 5000000
+ 32031 multiletter control sequences out of 15000+600000
+ 566312 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,10n,65p,386b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (26 pages, 1819153 bytes).
+ 75i,10n,79p,595b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\jqcla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/jqcla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (27 pages, 1883552 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,6 +22,9 @@
 \usepackage{graphicx}
 \usepackage{afterpage}
 \usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -196,7 +199,7 @@ apply.\vspace{24pt}
 this declaration I am
 agreeing to the statements and conditions above.
 \vskip 2pc \noindent
-Signed: Justin Clarke \hfill Date: 21/07/2023 \newline
+Signed: Justin Clarke \hfill Date: 17/11/2023 \newline
 \vskip 1pc
 
 \afterpage{\blankpage}
@@ -257,8 +260,8 @@ to quantify these relationships with graph sparsification techniques.
 
 {\noindent}Climate models are based on well-known scientific processes and attempt to simulate the movement of fluids and energy throughout a system. 
 The simplest of these have existed since the 1950's with the very first computers modelling simple variables on small two-dimensional climates\cite{edwards2011history}.
-These models have been scaled up into global three dimensional sizes and most model the complex interactions between various physical, chemical, biological and geological processes. 
-Modern climate models are constantly being updated with new data as many different groups and institutions implement higher spatial and temporal resolutions.
+Modern Global Climate Models (GCMs) have been scaled up into globally sized three dimensional sizes and most model the complex interactions between various physical, chemical, biological and geological processes. 
+These models are constantly being updated with new data as many different groups and institutions implement higher spatial and temporal resolutions.
 This has in part been driven by developments in computational techniques and the vast amount of data available worldwide to train these models.\cite{Overpeck2011}
 A common approach to studying the complex system of Earth's climate has been through sophisticated mathematical modelling with a range of temporal and spatial data\cite{Kulinich_2022}
 and at the centre of most of these approaches are the Navier-Stokes equations which are used describe the movements of liquids and gases in our oceans and atmosphere.\cite{Palmer2008} \\
@@ -339,12 +342,13 @@ Much of this data exists in the world in applications such as chemical analysis\
 {\section{Sparsification of Deep Learning}}\label{sparsification}
 
 An estimated 80 to 90 percent of the worlds' 79 zetabytes of data is unstructured and graphs make up a significant proportion of this data\cite{inmon2007tapping}.
-Traditional neural networks are not able to extract meaninful insights from this data without significant cleaning and due to the size of this data, GNNs have been scaled up into the billions of nodes.
-The modern age has also produced many advancements in computing and big data which led to an exponential growth in the size and complexity of these deep learning models.
+Traditional neural networks are not able to extract meaninful insights from this unstructured data without significant cleaning.
+The modern age has also produced many advancements in computing such as Massively Parallel Processing (MPP)\cite{nordstrom1992using} 
+and big data which has led to an exponential growth in the size and complexity of these deep learning models.
 The well-known Generative-Pretrained Transformer 3 (GPT-3) model by OpenAI commonly used for ChatGPT had variants with 175 billion parameters which required 800 gigabytes to store.\cite{radford2018improving}
 Although Deep Neural Networks (DNN) tend to generalise well even when overparameterised\cite{Cao_Gu_2020}, this level of overparameterisation makes inference 
-and prediction highly costly when the same performance could be achieved on a far more simple model. Some studies introduced the concept of the
-Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} which explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst still training to full accuracy.
+and prediction highly costly when the same performance could be achieved on a far more simple model. To address this, the concept of the
+Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} was introduced which explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst still training to full accuracy.
 Chen et.al.\cite{chen2021unified} extended the LTH to Graph Neural Networks by co-optimising graph and neural networks weights and zeroing out edges with the lowest magnitude. 
 This reduced computational costs by over 85\% depending on the size of the graph whilst maintaining a strong baseline accuracy.
 
@@ -354,10 +358,22 @@ The goal of this thesis is to investigate whether these graph sparisifcation tec
 are all attempting to model the same scenario in the climate. Graph structure and dependence learning is already possible with unsupervised methods such as Variational Graph Autoencoders (VGAE)\cite{pmlr-v97-yu19a}
 but to our best knowledge, graph sparsification has not been used before as a method for graph structure learning or infering dependence. Existing methods for determining multiple correlation such as 
 partial correlation and multiple correlation coefficient $R^2$ are linear methods. Graph sparsification is primarily used for simplifying graphs which have been overparameterised and grown too large but 
-by removing these edges, the edges that remain should theoretically hold some relation to dependence in the graph. 
+by removing these edges, the edges that remain should theoretically hold some relation to dependence in the graph.  
 
-{\section{Outline}}\label{approach}
-Overview of each section and the methods of each. 
+{\section{Outline}}\label{outline}
+
+{\noindent}The thesis is structured as follows. 
+In Chapter 2, we will review the studies relating to neural networks, the extensions towards graph neural networks and the lottery ticket hypothesis (LTH).
+Current methods along with the benefits and shortcomings will be discussed and the terminology and definitions for will also be outlined in this section. \\
+
+{\noindent} In Chapter 3, we will perform an exploratory data analysis (EDA) and provide a high-level overview of the dataset. This will provide a more
+in-depth understanding of the scenarios and CMIP6 models. There will also be a more comprehensive analysis of an individual climate modeL? (pick an example?)
+the climate modelling process and ensemble weighting method? We then introduce our problem formulation with by formalising the regression problem we will be using
+to perform the sparsification algorithm. \\
+
+In Chapter 4, we visualise the results of the sparsification algorithm and we compare it to various correlation and partial correlation matrices. 
+We may also look at Mutual Information Criterion (MIC) and compare with Variational Graph Autoencoder?
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -366,22 +382,21 @@ Overview of each section and the methods of each.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-In this chapter we will give a brief overview on how the climate works and review 
-current standards in climate modelling along with the basics
-behind neural networks and the extensions towards graph neural networks.
+% In this chapter we will give a brief overview on how the climate works and review 
+% current standards in climate modelling along with the basics
+% behind neural networks and the extensions towards graph neural networks.
 
-This will basically be the section on literature review. Current methods and techniques being
-used etc. A lot of summaries of the papers saved in the papers folder need to be done to 
-finish this section.
+% This will basically be the section on literature review. Current methods and techniques being
+% used etc. A lot of summaries of the papers saved in the papers folder need to be done to 
+% finish this section.
 
 
 %%%%%%%%%%%%
 \section{Deep Learning}\label{nn}
 %%%%%%%%%%%%
-Traditional machine learning techiques generally require meaningful data cleaning and feature creation which was costly to develop and 
-often had many errors. The advent of deep learning provided algorithms that could automatically extract higher-level features from raw data.\cite{deng-deep-learning} The MLP 
+The advent of deep learning provided algorithms that could automatically extract higher-level features from raw data.\cite{deng-deep-learning}
 The multi-layer perceptron\cite{rumelhart1986learning} is formulated using linked layers of nodes which transforms a set of inputs into an output.
-The MLP attempts to approximate some ground-truth function which may also be non-linear. The single layer version of this model can be represented as
+The single layer version of this model can be represented as
 
 \begin{equation}
     f(x) = \sigma(\Theta^T X)  \; \text{where}  \; \Theta= \begin{bmatrix} b \\ \theta_1 \\ \vdots \\ \theta_n \end{bmatrix} \text{and} \; X = \begin{bmatrix} 1 \\ x_1 \\ \vdots \\ x_n \end{bmatrix}
@@ -394,12 +409,12 @@ These parameters are set to some initial values and are iteratively updated in a
     \theta^{t+1} = \theta^{t} - \eta\frac{\partial E(X, \theta^t)}{\partial\theta}
 \end{equation}
 
-\noindent Where $E(.)$ is some loss function and $\eta$ is the learning rate.
-The next advancement in the deep learning space came with the Convolutional Neural Network (CNN) which was a regularised MLP that could
-handle data with data with structure and multiple dimensions far better than the traditional MLP due to its use of weight sharing, sampling
-and local receptive fields.\cite{Goodfellow-et-al-2016}
+\noindent Where $E(.)$ is some loss function and $\eta$ is the learning rate. \\
 
-\noindent Suppose we have an image or some other kind of data in matrix form. Let $\textbf{X} \in \mathbb{R}^{H\times W}$ be the input image and
+\noindent The next advancement in the deep learning space came with the Convolutional Neural Network (CNN) which was a regularised MLP that could
+handle data with data with structure and multiple dimensions far better than the traditional MLP due to its use of weight sharing, 
+sampling and local receptive fields.\cite{Goodfellow-et-al-2016}
+Suppose we have an image or some other kind of data in two-dimensional matrix form. Let $\textbf{X} \in \mathbb{R}^{H\times W}$ be the input image and
 $\textbf{W} \in \mathbb{R}^{h\times w}$ be the kernel or filter. By performing a convolution, we are effectively 'sliding' our weight matrix kernel
 over our input and the resulting feature map $\textbf{Z} = \textbf{X} \ast \textbf{W}$,
 
@@ -414,52 +429,95 @@ failed to achieve.\cite{pml1Book}
 %%%%%%%%%%%%
 \section{Graph Neural Networks}\label{gnn}
 %%%%%%%%%%%%
-\textit{Summarise the extension of GNN's from NN's and how they are useful in certain applications.} 
 When it comes to data in a graph-like structure, standard CNN's cannot be applied due to the non-euclidean nature of a graph.
 In an image or a matrix, our kernel is generally a $n\times n$ matrix which can be applied to the entirety of the data. In graphs
 this is not always possible due to the fact that any number of nodes can be connected by any number of edges.\cite{sanchez-lengeling2021a} 
 The Graph Neural Network (GNN) was developed for this purpose and they can be broadly categorised into gating and attention based methods\cite{veličković2018graph} 
-and spectral or spatial methods within Graph Convolutional Network (GCN) research.\cite{kipf2017semisupervised} This propagation rule is as follows:
+and spectral or spatial methods within Graph Convolutional Network (GCN) research.\cite{kipf2017semisupervised} \\
+
+{\noindent}We define a graph as ${\mathcal{G}} = ({\mathcal{V}}, \textbf{A})$, where $\mathcal{V}$ represents a set of verticies which contains a list of nodes
+$\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains information on the graph topology. 
+If an edge exists between two node $v_i$ and $v_j$, then $\textbf{A}_{ij} = 1$ else, $\textbf{A}_{ij} = 0$. 
+We also define the degree matrix as $\mathbf{D} = \sum_{j}A_{ij}$ where each entry on the diagonal is equal to the row sum of the adjacency matrix $\textbf{A}$.  
+Each node has a {p}-dimensional feature vector ${x_i} \in \mathbb{R}^{p}$ which describes some information about the node in the graph. 
+By combining all ${n}$ feature vectors from all nodes, we have a feature matrix $\textbf{X} \in \mathbb{R}^{n\times p}$. 
+The graph also has a response ${Y} \in \mathbb{R}^p$ which is for a graph-level task but a node level task would simply have ${Y} \in \mathbb{R}^{n\times p}$.
+The two-layer GNN from\cite{kipf2017semisupervised} can be expressed as
 
 \begin{equation}
-    H^{(l+1)} = \sigma(\tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} H^{(l)} W^{(l)})
+f(\mathbf{A, X}) = \sigma_2( \mathbf{ \hat{A} }_2 \sigma_1 (\mathbf{ \hat{A} }_1 \mathbf{X} \Theta^{(0)}) \Theta^{(1)})
+\end{equation}
+
+\noindent where $\sigma_1(.)$ and $\sigma_2(.)$ are an activation function such as ReLU, and $\hat{A} = \tilde{D}^{-1/2} (A + I) \tilde{D}^{-1/2}$
+is the symmetrically normalised adjacency matrix. The propagation rule is then as follows:
+
+\begin{equation}
+    H^{(l+1)} = \sigma(\tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} H^{(l)} \Theta^{(l)})
 \end{equation}
 
 \noindent Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph $\mathcal{G}$ with self-connections from the identity matrix $I_N$.
 $\tilde{D_{ii}} = \sum_{j} \tilde{A}_{ij} $ is the row sum of the adjacency matrix and $W^{(l)}$ is a layer trainable weight matrix. 
 $\sigma(.)$ is an activation function such as $\text{ReLU}(.) = \text{max}(0, .)$. $H^{(l)} \in \mathbb{R}^{N \times D}$ is the matrix of activations
-in the lth layer with $H^0 = X$. 
+in the lth layer with $H^0 = \textbf{X}$. 
 
 
-\section{Sparsification Graph Neural Network}\label{sparse-learning}
+\section{Sparsification of Graph Neural Networks}\label{sparse-learning}
 
-Hornik\cite{HORNIK1991251} showed that in a single layer MLP and provided enough hidden neuron units, the neural network could model any smooth truth function as for each added neuron, 
+Hornik\cite{HORNIK1991251} showed that in a single layer MLP and provided enough hidden neuron units, 
+the neural network could model any smooth truth function as for each added neuron, 
 the decision space can be segmented to added linear regions to conform to any response. 
 Many experiments have also found that deep networks with many layers perform better than shallow ones\cite{NIPS2014_109d2dd3}\cite{pmlr-v70-raghu17a}
 as the usage of many layers allows deeper layers to leverage features produced by earlier layers.
 The noveltly of neural networks is that they do not tend to be affected greatly by overparameterisation\cite{Cao_Gu_2020}, and as they generally improve with more neurons
 and layers these models have grown exponentially in size with some models using billions of parameters and most of these models having more parameters than training observations
-which has made both inference and prediction incredibly costly.  (Reference some math from the number of linear decision regions and some graphs?)
- 
-The Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
+which has made both inference and prediction incredibly costly.  (Reference some math from the number of linear decision regions and some graphs?) \\
+
+{\noindent}The most basic approach to inducing model sparsity is through an $l_1$ penalty in the loss function.\cite{pml1Book}
+Unlike the $l_2$ regularisation which penalises large magnitude weights, the $l_1$ regularisation minimises and zeros weights which encourages sparsity.
+On a linear regression, this is done with a MAP estimation with a Laplace prior and is equivalent to optimising
+
+\begin{equation}
+    \mathcal{L}(\Theta) = ||\textbf{X}\Theta - \textbf{Y}||^2_2 + \lambda||\Theta||_1
+\end{equation}
+where $\lambda$ is some tunable sparsity parameter. This is easily extended to neural networks by applying this penalty to the weights in the layers of the network.\cite{ma2019transformed}
+Despite the this benefit, modern GPUs are optimised for dense matrix multiplication and as such there aren't many computational benefits from regularisation if certain weights across the network are zero.
+Methods that encourage \textit{group} sparsity are able to prune whole nodes and layers out of our model result in \textit{block sparse} weight matricies which provide much more substanial computational savings.
+\cite{scardapane2017group}\cite{wen2016learning}\cite{molchanov2017variational}\cite{louizos2017bayesian} \\
+
+{\noindent}The Lottery Ticket Hypothesis (LTH)\cite{frankle2020linear} explored the possibility of simplifying redundant models by trainable sparse subnetworks whilst
 still training to full accuracy. Chen et. al.\cite{chen2021unified} extended the LTH to Graph Neural Networks by co-simplifying both the adjacentcy matrix of the graph and the weights in 
 the network of the model. For a semi-supervised classification task, the objective function is:
 
 \begin{equation}
     \mathcal{L}(\mathcal{G}, \Theta) = -\frac{1}{|\mathcal{V}_{\text{label}}|}\sum_{v_i \in \mathcal{V_{\text{label}}}} y_i \log{(z_i)},
 \end{equation}
-
 where $\mathcal{L}$ is the cross-entropy error of all samples and $y_i$ is the label vector of node $v_i$. The Unified GNN Sparsification (UGS)
 framework then introduced two masks $m_g$ and $m_\theta$ with the same shape as the adjacency matrix $\textbf{A}$ and the weights matrix $\Theta$, which
 gives the following objective function:
 
-\begin{equation}
+\begin{equation}\label{eqn:l_ugs}
     \mathcal{L}_{\text{UGS}} = \mathcal{L}(\{m_g \odot A, \textbf{X}\}, m_\theta \odot \Theta) + \gamma_1 ||m_g||_1 + \gamma_2 ||m_\theta||_1,
 \end{equation}
 
 \noindent where $\odot$ is the element-wise product, $\gamma_1$ and $\gamma_2$ are hyperparameters to control the shrinkage of $m_g$ and $m_\theta$.
 After training, the lowest magnitude elements in $m_g$ and $m_\theta$ are set to zero with respect to some set values of $p_g$ and $p_\theta$.
-These sparse masks are then applied which prune $\textbf{A}$ and $\Theta$.
+These sparse masks are then applied which prune $\textbf{A}$ and $\Theta$. The algorithm is then as follows
+
+\begin{algorithm}
+    \caption{Unifed GNN Sparsification\cite{chen2021unified}}\label{alg:ugs}
+    \textbf{Input:} \text{Graph} $\mathcal{G} = \{A, \textbf{X}\}$, GNN $f(\mathcal{G}, \Theta_0)$, weight initialisation $\Theta_0$, masks $m^0_g = A$ and $m^0_\theta = 1 \in \R^{||\Theta_0||_0}$, step size $\eta, \lambda_g$ and $\lambda_\theta$.\\
+    \textbf{Output:} Sparse masks $m_g$ and $m_\theta$
+    \begin{algorithmic}[1]
+        \For{iteration $i = 0, 1, 2, \dots, N-1$}
+            \State{Forward $f(\cdot, m^i_\theta \odot \Theta_i)$ with $\mathcal{G}=\{m_g^i\odot A, \textbf{X}\}$ \Comment{Computes \ref{eqn:l_ugs}}}
+            \State{Backpropagate to update $\Theta_{i+1} \gets \Theta_i - \eta \nabla_{\Theta_i} \mathcal{L}_{UGS} $}
+            \State{Update $m_g^{i+1} \gets m_g^i - \eta \nabla_{m_g^i} \mathcal{L}_{UGS}$}
+            \State{Update $m_\theta^{i+1} \gets m_\theta^i - \eta \nabla_{m_\theta^i} \mathcal{L}_{UGS}$}
+        \EndFor
+        \State Set $p_g = 5\%$ of the lowest magnitude values in $m_g^N$ to 0 and others to 1, then obtain $m_g$.
+        \State Set $p_g = 20\%$ of the lowest magnitude values in $m_\theta^N$ to 0 and others to 1, then obtain $m_\theta$.
+    \end{algorithmic}
+\end{algorithm}
 
 %%%%%%%%%%%%
 \section{Variational Autoencoder}\label{vgae}
@@ -482,27 +540,27 @@ Show how this is an alternative in graph discovery.
 What climate models are used for etc.
 Use Yanan's climate papers.
 
-
 (Can we talk about how one model works?)
 
+\section{Exploratory Data Analysis}\label{eda}
 \begin{figure}[!h]
     \includegraphics[width=7cm]{model_agg_global_avg_tas}
     \includegraphics[width=7cm]{model_global_avg_tas}
     \centering
 \end{figure}
 
-Looking at a plot of all the models, there is a clear correlation between all the models and the correlation heatmap affirms this as the correlation between each
-ranges from 0.96--1. 
-
 \begin{figure}[t]
-    \includegraphics[width=10cm]{model_corr}
+    \includegraphics[width=7cm]{model_corr}
     \centering
 \end{figure}
+
+{\noindent}Looking at a plot of all the models, there is a clear correlation between all the models and the correlation heatmap affirms this as the correlation between each
+ranges from 0.96--1. 
 
 %%%%%%%%%%%%%%%%
 \section{Dataset}\label{data}
 The datasets used are from the CMIP6 scenario runs made available on the KNMI Climate Explorer website. The KNMI is part of the
-World Meteoriological Organization (WMO)\cite{}. The scenario runs include monthly predictions for temperature, min temperature, max temperature
+World Meteoriological Organization (WMO) and obtained from \url{https://climexp.knmi.nl/}. The scenario runs include monthly predictions for temperature, min temperature, max temperature
 precipitation, radiation and pressure all over the globe in a 192$\times$144 grid between 1850--2100 for 40 different models. Due to the time and computational
 limitations, this was filtered to just temperature during the 1960--1980 period in just Australia or latitudes -44{\textdegree} to -12{\textdegree} 
 and longtitudes 288{\textdegree} to 336{\textdegree}. 
@@ -513,22 +571,8 @@ Talk a bit more about how these models in the dataset are all related by certain
 {\section{Problem Formulation}}\label{problem-formulation}
 \textit{Maybe add this to the background section and put more of the regression, diagrams of the process and shrinkage prior stuff here that it more specific to this thesis}
 
-We define a graph as ${\mathcal{G}} = ({\mathcal{V}}, \textbf{A})$, where $\mathcal{V}$ represents a set of verticies which contains a list of nodes
-$\{ v_1, \dots, v_n \}$ and $\textbf{A} \in \mathbb{R}^{n \times n}$ the adjacentcy matrix which contains information on the graph topology. If an edge exists
-between two node $v_i$ and $v_j$, then $\textbf{A}_{ij} = 1$ else, $\textbf{A}_{ij} = 0$. We also define the degree matrix as $\mathbf{D} = \sum_{j}A_{ij}$
-where each entry on the diagonal is equal to the row sum of the adjacency matrix $\textbf{A}$.  
-Each node has a {p}-dimensional feature vector ${x_i} \in \mathbb{R}^{p}$
-which describes some information about the node in the graph. By combining all ${n}$ feature vectors from all nodes, we have a feature matrix
-$\textbf{X} \in \mathbb{R}^{n\times p}$. The graph also has a regression target ${Y} \in \mathbb{R}$ which refers to the historical temperature that each model from the
-graph is attempting to predict. As mentioned earlier, other variables such as precipitation, pressure and radiation are available but for simplicity, just temperature
-is currently being used. The two-layer GNN from \cite{kipf2017semisupervised} can be expressed as
-
-\begin{equation}
-f(\mathbf{A, X}) = \sigma_2( \mathbf{ \hat{A} }_2 \sigma_1 (\mathbf{ \hat{A} }_1 \mathbf{X} W^{(0)}) W^{(1)})
-\end{equation}
-
-\noindent where $\sigma_1(.)$ and $\sigma_2(.)$ are an activation function such as ReLU, and $\hat{A} = \tilde{D}^{-1/2} (A + I) \tilde{D}^{-1/2}$
-is the symmetrically normalised adjacency matrix. The final regression problem can be formulated as
+The final regression problem can be formulated as
+As mentioned earlier, other variables such as precipitation, pressure and radiation are available but for simplicity, just temperature is currently being used.
 
 \begin{equation}
 f : L \times X \rightarrow Y

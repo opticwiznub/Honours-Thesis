@@ -98,6 +98,23 @@ June-Yi Lee, Jochem Marotzke, Govindasamy Bala, Long Cao, Susanna Corti, John~P
   of working group I to the sixth assessment report of the intergovernmental
   panel on climate change}, pages 553--672. Cambridge University Press, 2021.
 
+\bibitem{louizos2017bayesian}
+Christos Louizos, Karen Ullrich, and Max Welling.
+\newblock Bayesian compression for deep learning.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{ma2019transformed}
+Rongrong Ma, Jianyu Miao, Lingfeng Niu, and Peng Zhang.
+\newblock Transformed l1 regularization for learning sparse deep neural
+  networks.
+\newblock {\em Neural Networks}, 119:286--298, 2019.
+
+\bibitem{molchanov2017variational}
+Dmitry Molchanov, Arsenii Ashukha, and Dmitry Vetrov.
+\newblock Variational dropout sparsifies deep neural networks.
+\newblock In {\em International Conference on Machine Learning}, pages
+  2498--2507. PMLR, 2017.
+
 \bibitem{NIPS2014_109d2dd3}
 Guido~F Montufar, Razvan Pascanu, Kyunghyun Cho, and Yoshua Bengio.
 \newblock On the number of linear regions of deep neural networks.
@@ -109,6 +126,13 @@ Guido~F Montufar, Razvan Pascanu, Kyunghyun Cho, and Yoshua Bengio.
 Kevin~P. Murphy.
 \newblock {\em Probabilistic Machine Learning: An introduction}.
 \newblock MIT Press, 2022.
+
+\bibitem{nordstrom1992using}
+Tomas Nordstr{\"o}m and Bertil Svensson.
+\newblock Using and designing massively parallel computers for artificial
+  neural networks.
+\newblock {\em Journal of parallel and distributed computing}, 14(3):260--285,
+  1992.
 
 \bibitem{nouri2021improving}
 Sara Nouri~Golmaei.
@@ -182,10 +206,20 @@ Benjamin Sanchez-Lengeling, Emily Reif, Adam Pearce, and Alexander~B.
 \newblock {\em Distill}, 2021.
 \newblock https://distill.pub/2021/gnn-intro.
 
+\bibitem{scardapane2017group}
+Simone Scardapane, Danilo Comminiello, Amir Hussain, and Aurelio Uncini.
+\newblock Group sparse regularization for deep neural networks.
+\newblock {\em Neurocomputing}, 241:81--89, 2017.
+
 \bibitem{veličković2018graph}
 Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
   Liò, and Yoshua Bengio.
 \newblock Graph attention networks, 2018.
+
+\bibitem{wen2016learning}
+Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li.
+\newblock Learning structured sparsity in deep neural networks.
+\newblock {\em Advances in neural information processing systems}, 29, 2016.
 
 \bibitem{xu2022chemistry}
 Katherine Xu and Janice Lan.
