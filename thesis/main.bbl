@@ -6,6 +6,20 @@ G.~Abramowitz and C.~H. Bishop.
   of cmip projections.
 \newblock {\em Journal of Climate}, 28(6):2332 -- 2348, 2015.
 
+\bibitem{adeel2020contextual}
+Ahsan Adeel, Mandar Gogate, and Amir Hussain.
+\newblock Contextual deep learning-based audio-visual switching for speech
+  enhancement in real-world environments.
+\newblock {\em Information Fusion}, 59:163--170, 2020.
+
+\bibitem{alzubaidi2021review}
+Laith Alzubaidi, Jinglan Zhang, Amjad~J Humaidi, Ayad Al-Dujaili, Ye~Duan,
+  Omran Al-Shamma, Jos{\'e} Santamar{\'\i}a, Mohammed~A Fadhel, Muthana
+  Al-Amidie, and Laith Farhan.
+\newblock Review of deep learning: Concepts, cnn architectures, challenges,
+  applications, future directions.
+\newblock {\em Journal of big Data}, 8:1--74, 2021.
+
 \bibitem{Cao_Gu_2020}
 Yuan Cao and Quanquan Gu.
 \newblock Generalization error bounds of gradient descent for learning
@@ -28,10 +42,29 @@ Paul~N Edwards.
 \newblock {\em Wiley Interdisciplinary Reviews: Climate Change}, 2(1):128--139,
   2011.
 
+\bibitem{feng2011comparison}
+Jinming Feng, Dong-Kyou Lee, Congbin Fu, Jianping Tang, Yasuo Sato, Hisashi
+  Kato, John~L Mcgregor, and Kazuo Mabuchi.
+\newblock Comparison of four ensemble methods combining regional climate
+  simulations over asia.
+\newblock {\em Meteorology and Atmospheric Physics}, 111:41--53, 2011.
+
+\bibitem{frank1993statistical}
+LLdiko~E Frank and Jerome~H Friedman.
+\newblock A statistical view of some chemometrics regression tools.
+\newblock {\em Technometrics}, 35(2):109--135, 1993.
+
 \bibitem{frankle2020linear}
 Jonathan Frankle, Gintare~Karolina Dziugaite, Daniel~M. Roy, and Michael
   Carbin.
 \newblock Linear mode connectivity and the lottery ticket hypothesis, 2020.
+
+\bibitem{gal2016dropout}
+Yarin Gal and Zoubin Ghahramani.
+\newblock Dropout as a bayesian approximation: Representing model uncertainty
+  in deep learning.
+\newblock In {\em international conference on machine learning}, pages
+  1050--1059. PMLR, 2016.
 
 \bibitem{Goodfellow-et-al-2016}
 Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
@@ -63,6 +96,24 @@ W.H. Inmon and A.~Nesavich.
 \newblock {\em Tapping into Unstructured Data: Integrating Unstructured Data
   and Textual Analytics into Business Intelligence}.
 \newblock Pearson Education, 2007.
+
+\bibitem{kendall2017uncertainties}
+Alex Kendall and Yarin Gal.
+\newblock What uncertainties do we need in bayesian deep learning for computer
+  vision?
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{kharin2002climate}
+Viatcheslav~V Kharin and Francis~W Zwiers.
+\newblock Climate predictions with multimodel ensembles.
+\newblock {\em Journal of Climate}, 15(7):793--799, 2002.
+
+\bibitem{kim2015ppcor}
+Seongho Kim.
+\newblock ppcor: an r package for a fast calculation to semi-partial
+  correlation coefficients.
+\newblock {\em Communications for statistical applications and methods},
+  22(6):665, 2015.
 
 \bibitem{kipf2017semisupervised}
 Thomas~N. Kipf and Max Welling.
@@ -126,6 +177,12 @@ Guido~F Montufar, Razvan Pascanu, Kyunghyun Cho, and Yoshua Bengio.
 Kevin~P. Murphy.
 \newblock {\em Probabilistic Machine Learning: An introduction}.
 \newblock MIT Press, 2022.
+
+\bibitem{nalisnick2019dropout}
+Eric Nalisnick, Jos{\'e}~Miguel Hern{\'a}ndez-Lobato, and Padhraic Smyth.
+\newblock Dropout as a structured shrinkage prior.
+\newblock In {\em International Conference on Machine Learning}, pages
+  4712--4722. PMLR, 2019.
 
 \bibitem{nordstrom1992using}
 Tomas Nordstr{\"o}m and Bertil Svensson.
@@ -211,6 +268,19 @@ Simone Scardapane, Danilo Comminiello, Amir Hussain, and Aurelio Uncini.
 \newblock Group sparse regularization for deep neural networks.
 \newblock {\em Neurocomputing}, 241:81--89, 2017.
 
+\bibitem{srivastava2014dropout}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {\em The journal of machine learning research}, 15(1):1929--1958,
+  2014.
+
+\bibitem{tian2020evolutionary}
+Haiman Tian, Shu-Ching Chen, and Mei-Ling Shyu.
+\newblock Evolutionary programming based deep learning feature selection and
+  network construction for visual data classification.
+\newblock {\em Information systems frontiers}, 22:1053--1066, 2020.
+
 \bibitem{veličković2018graph}
 Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
   Liò, and Yoshua Bengio.
@@ -225,6 +295,11 @@ Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li.
 Katherine Xu and Janice Lan.
 \newblock Chemistry insights for large pretrained {GNN}s.
 \newblock In {\em NeurIPS 2022 AI for Science: Progress and Promises}, 2022.
+
+\bibitem{young2018recent}
+Tom Young, Devamanyu Hazarika, Soujanya Poria, and Erik Cambria.
+\newblock Recent trends in deep learning based natural language processing.
+\newblock {\em ieee Computational intelligenCe magazine}, 13(3):55--75, 2018.
 
 \bibitem{pmlr-v97-yu19a}
 Yue Yu, Jie Chen, Tian Gao, and Mo~Yu.

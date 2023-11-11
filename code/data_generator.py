@@ -23,7 +23,7 @@ class ssp_data():
     def init_edge_list(self, n):
         self.edge_index = []
         for i in range(n):
-            for j in range(n):
+            for j in range(i, n):
                 if i != j:
                     self.edge_index.append([i, j])
         self.edge_index = torch.tensor(self.edge_index, dtype=torch.long)
