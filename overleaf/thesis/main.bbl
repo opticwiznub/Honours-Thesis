@@ -1,0 +1,356 @@
+\begin{thebibliography}{10}
+
+\bibitem{ClimateModelDependenceandtheEnsembleDependenceTransformationofCMIPProjections}
+G.~Abramowitz and C.~H. Bishop.
+\newblock Climate model dependence and the ensemble dependence transformation
+  of cmip projections.
+\newblock {\em Journal of Climate}, 28(6):2332 -- 2348, 2015.
+
+\bibitem{adcroft2019gfdl}
+Alistair Adcroft, Whit Anderson, V~Balaji, Chris Blanton, Mitchell Bushuk,
+  Carolina~O Dufour, John~P Dunne, Stephen~M Griffies, Robert Hallberg,
+  Matthew~J Harrison, et~al.
+\newblock The gfdl global ocean and sea ice model om4. 0: Model description and
+  simulation features.
+\newblock {\em Journal of Advances in Modeling Earth Systems},
+  11(10):3167--3211, 2019.
+
+\bibitem{adeel2020contextual}
+Ahsan Adeel, Mandar Gogate, and Amir Hussain.
+\newblock Contextual deep learning-based audio-visual switching for speech
+  enhancement in real-world environments.
+\newblock {\em Information Fusion}, 59:163--170, 2020.
+
+\bibitem{alzubaidi2021review}
+Laith Alzubaidi, Jinglan Zhang, Amjad~J Humaidi, Ayad Al-Dujaili, Ye~Duan,
+  Omran Al-Shamma, Jos{\'e} Santamar{\'\i}a, Mohammed~A Fadhel, Muthana
+  Al-Amidie, and Laith Farhan.
+\newblock Review of deep learning: Concepts, cnn architectures, challenges,
+  applications, future directions.
+\newblock {\em Journal of big Data}, 8:1--74, 2021.
+
+\bibitem{bi2020configuration}
+Daohua Bi, Martin Dix, Simon Marsland, Siobhan O’farrell, Arnold Sullivan,
+  Roger Bodman, Rachel Law, Ian Harman, Jhan Srbinovsky, Harun~A Rashid, et~al.
+\newblock Configuration and spin-up of access-cm2, the new generation
+  australian community climate and earth system simulator coupled model.
+\newblock {\em Journal of Southern Hemisphere Earth Systems Science},
+  70(1):225--251, 2020.
+
+\bibitem{Cao_Gu_2020}
+Yuan Cao and Quanquan Gu.
+\newblock Generalization error bounds of gradient descent for learning
+  over-parameterized deep relu networks.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  34(04):3349--3356, Apr. 2020.
+
+\bibitem{chen2021unified}
+Tianlong Chen, Yongduo Sui, Xuxi Chen, Aston Zhang, and Zhangyang Wang.
+\newblock A unified lottery ticket hypothesis for graph neural networks, 2021.
+
+\bibitem{deng-deep-learning}
+Li~Deng and Dong Yu.
+\newblock {\em Deep Learning: Methods and Applications}.
+\newblock Now Foundations and Trends, 2014.
+
+\bibitem{edwards2011history}
+Paul~N Edwards.
+\newblock History of climate modeling.
+\newblock {\em Wiley Interdisciplinary Reviews: Climate Change}, 2(1):128--139,
+  2011.
+
+\bibitem{feng2011comparison}
+Jinming Feng, Dong-Kyou Lee, Congbin Fu, Jianping Tang, Yasuo Sato, Hisashi
+  Kato, John~L Mcgregor, and Kazuo Mabuchi.
+\newblock Comparison of four ensemble methods combining regional climate
+  simulations over asia.
+\newblock {\em Meteorology and Atmospheric Physics}, 111:41--53, 2011.
+
+\bibitem{frank1993statistical}
+LLdiko~E Frank and Jerome~H Friedman.
+\newblock A statistical view of some chemometrics regression tools.
+\newblock {\em Technometrics}, 35(2):109--135, 1993.
+
+\bibitem{frankle2020linear}
+Jonathan Frankle, Gintare~Karolina Dziugaite, Daniel~M. Roy, and Michael
+  Carbin.
+\newblock Linear mode connectivity and the lottery ticket hypothesis, 2020.
+
+\bibitem{gal2016dropout}
+Yarin Gal and Zoubin Ghahramani.
+\newblock Dropout as a bayesian approximation: Representing model uncertainty
+  in deep learning.
+\newblock In {\em international conference on machine learning}, pages
+  1050--1059. PMLR, 2016.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+
+\bibitem{Harrisson_2021_SSP}
+Thomas Harrisson.
+\newblock Explainer: How ‘shared socioeconomic pathways’ explore future
+  climate change, Apr 2018.
+
+\bibitem{Harrisson_2021}
+Thomas Harrisson.
+\newblock Cmip6: The next generation of climate models explained, Oct 2021.
+
+\bibitem{HORNIK1991251}
+Kurt Hornik.
+\newblock Approximation capabilities of multilayer feedforward networks.
+\newblock {\em Neural Networks}, 4(2):251--257, 1991.
+
+\bibitem{Hubel_Wiesel_1962}
+D.~H. Hubel and T.~N. Wiesel.
+\newblock Receptive fields, binocular interaction and functional architecture
+  in the cat’s visual cortex.
+\newblock {\em The Journal of Physiology}, 160(1):106–154, 1962.
+
+\bibitem{hunke2010cice}
+Elizabeth~C Hunke, William~H Lipscomb, Adrian~K Turner, Nicole Jeffery, and
+  Scott Elliott.
+\newblock Cice: the los alamos sea ice model documentation and software
+  user’s manual version 4.1 la-cc-06-012.
+\newblock {\em T-3 Fluid Dynamics Group, Los Alamos National Laboratory},
+  675:500, 2010.
+
+\bibitem{inmon2007tapping}
+W.H. Inmon and A.~Nesavich.
+\newblock {\em Tapping into Unstructured Data: Integrating Unstructured Data
+  and Textual Analytics into Business Intelligence}.
+\newblock Pearson Education, 2007.
+
+\bibitem{kendall2017uncertainties}
+Alex Kendall and Yarin Gal.
+\newblock What uncertainties do we need in bayesian deep learning for computer
+  vision?
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{kharin2002climate}
+Viatcheslav~V Kharin and Francis~W Zwiers.
+\newblock Climate predictions with multimodel ensembles.
+\newblock {\em Journal of Climate}, 15(7):793--799, 2002.
+
+\bibitem{kim2015ppcor}
+Seongho Kim.
+\newblock ppcor: an r package for a fast calculation to semi-partial
+  correlation coefficients.
+\newblock {\em Communications for statistical applications and methods},
+  22(6):665, 2015.
+
+\bibitem{kipf2017semisupervised}
+Thomas~N. Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks,
+  2017.
+
+\bibitem{Knutti2010}
+Reto Knutti, Gab Abramowitz, M.~Collins, Veronika Eyring, Peter Gleckler, Bruce
+  Hewitson, and Linda Mearns.
+\newblock Good practice guidance paper on assessing and combining multi model
+  climate projections.
+\newblock pages 1--15, 01 2010.
+
+\bibitem{KOTU201919}
+Vijay Kotu and Bala Deshpande.
+\newblock Chapter 2 - data science process.
+\newblock In Vijay Kotu and Bala Deshpande, editors, {\em Data Science (Second
+  Edition)}, pages 19--37. Morgan Kaufmann, second edition edition, 2019.
+
+\bibitem{Kulinich_2022}
+Max Kulinich.
+\newblock {\em A Markov chain method for weighting climate model ensembles and
+  uncertainty estimation on spatially explicit data}.
+\newblock PhD thesis, UNSW, 2022.
+
+\bibitem{law2012community}
+Rachel Law, Michael Raupach, Gabriel Abramowitz, Imtiaz Dharssi, Vanessa
+  Haverd, Andrew Pitman, Luigi Renzullo, Albert Van~Dijk, and Yingping Wang.
+\newblock {\em The Community Atmosphere Biosphere Land Exchange (CABLE) model
+  Roadmap for 2012-2017}.
+\newblock Centre for Australian Weather and Climate Research, 2012.
+
+\bibitem{lee2021future}
+June-Yi Lee, Jochem Marotzke, Govindasamy Bala, Long Cao, Susanna Corti, John~P
+  Dunne, Francois Engelbrecht, Erich Fischer, John~C Fyfe, Christopher Jones,
+  et~al.
+\newblock Future global climate: scenario-based projections and near-term
+  information.
+\newblock In {\em Climate change 2021: The physical science basis. Contribution
+  of working group I to the sixth assessment report of the intergovernmental
+  panel on climate change}, pages 553--672. Cambridge University Press, 2021.
+
+\bibitem{louizos2017bayesian}
+Christos Louizos, Karen Ullrich, and Max Welling.
+\newblock Bayesian compression for deep learning.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{ma2019transformed}
+Rongrong Ma, Jianyu Miao, Lingfeng Niu, and Peng Zhang.
+\newblock Transformed l1 regularization for learning sparse deep neural
+  networks.
+\newblock {\em Neural Networks}, 119:286--298, 2019.
+
+\bibitem{molchanov2017variational}
+Dmitry Molchanov, Arsenii Ashukha, and Dmitry Vetrov.
+\newblock Variational dropout sparsifies deep neural networks.
+\newblock In {\em International Conference on Machine Learning}, pages
+  2498--2507. PMLR, 2017.
+
+\bibitem{NIPS2014_109d2dd3}
+Guido~F Montufar, Razvan Pascanu, Kyunghyun Cho, and Yoshua Bengio.
+\newblock On the number of linear regions of deep neural networks.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~Lawrence, and K.Q.
+  Weinberger, editors, {\em Advances in Neural Information Processing Systems},
+  volume~27. Curran Associates, Inc., 2014.
+
+\bibitem{pml1Book}
+Kevin~P. Murphy.
+\newblock {\em Probabilistic Machine Learning: An introduction}.
+\newblock MIT Press, 2022.
+
+\bibitem{nalisnick2019dropout}
+Eric Nalisnick, Jos{\'e}~Miguel Hern{\'a}ndez-Lobato, and Padhraic Smyth.
+\newblock Dropout as a structured shrinkage prior.
+\newblock In {\em International Conference on Machine Learning}, pages
+  4712--4722. PMLR, 2019.
+
+\bibitem{nordstrom1992using}
+Tomas Nordstr{\"o}m and Bertil Svensson.
+\newblock Using and designing massively parallel computers for artificial
+  neural networks.
+\newblock {\em Journal of parallel and distributed computing}, 14(3):260--285,
+  1992.
+
+\bibitem{nouri2021improving}
+Sara Nouri~Golmaei.
+\newblock {\em Improving the Performance of Clinical Prediction Tasks by Using
+  Structured and Unstructured Data Combined with a Patient Network}.
+\newblock PhD thesis, 2021.
+
+\bibitem{Overpeck2011}
+Jonathan Overpeck, Gerald Meehl, Sandrine Bony, and David Easterling.
+\newblock Climate data challenges in the 21st century.
+\newblock {\em Science (New York, N.Y.)}, 331:700--2, 02 2011.
+
+\bibitem{Palmer2008}
+Tim Palmer and Phoebe Williams.
+\newblock Stochastic physics and climate models.
+\newblock {\em Philosophical transactions. Series A, Mathematical, physical,
+  and engineering sciences}, 366:2421--7, 04 2008.
+
+\bibitem{radford2018improving}
+Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, et~al.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{pmlr-v70-raghu17a}
+Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, and Jascha
+  Sohl-Dickstein.
+\newblock On the expressive power of deep neural networks.
+\newblock In Doina Precup and Yee~Whye Teh, editors, {\em Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of {\em
+  Proceedings of Machine Learning Research}, pages 2847--2854. PMLR, 06--11 Aug
+  2017.
+
+\bibitem{rath2020detecting}
+Bhavtosh Rath, Aadesh Salecha, and Jaideep Srivastava.
+\newblock Detecting fake news spreaders in social networks using inductive
+  representation learning.
+\newblock In {\em 2020 IEEE/ACM International Conference on Advances in Social
+  Networks Analysis and Mining (ASONAM)}, pages 182--189. IEEE, 2020.
+
+\bibitem{RIAHI2017153}
+Keywan Riahi, Detlef~P. {van Vuuren}, Elmar Kriegler, Jae Edmonds, Brian~C.
+  O’Neill, Shinichiro Fujimori, Nico Bauer, Katherine Calvin, Rob Dellink,
+  Oliver Fricko, Wolfgang Lutz, Alexander Popp, Jesus~Crespo Cuaresma, Samir
+  KC, Marian Leimbach, Leiwen Jiang, Tom Kram, Shilpa Rao, Johannes Emmerling,
+  Kristie Ebi, Tomoko Hasegawa, Petr Havlik, Florian Humpenöder, Lara~Aleluia
+  {Da Silva}, Steve Smith, Elke Stehfest, Valentina Bosetti, Jiyong Eom, David
+  Gernaat, Toshihiko Masui, Joeri Rogelj, Jessica Strefler, Laurent Drouet,
+  Volker Krey, Gunnar Luderer, Mathijs Harmsen, Kiyoshi Takahashi, Lavinia
+  Baumstark, Jonathan~C. Doelman, Mikiko Kainuma, Zbigniew Klimont, Giacomo
+  Marangoni, Hermann Lotze-Campen, Michael Obersteiner, Andrzej Tabeau, and
+  Massimo Tavoni.
+\newblock The shared socioeconomic pathways and their energy, land use, and
+  greenhouse gas emissions implications: An overview.
+\newblock {\em Global Environmental Change}, 42:153--168, 2017.
+
+\bibitem{Rosenblatt_1958}
+F.~Rosenblatt.
+\newblock The perceptron: A probabilistic model for information storage and
+  organization in the brain.
+\newblock {\em Psychological Review}, 65(6):386–408, 1958.
+
+\bibitem{rumelhart1986learning}
+David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
+\newblock Learning representations by back-propagating errors.
+\newblock {\em nature}, 323(6088):533--536, 1986.
+
+\bibitem{sanchez-lengeling2021a}
+Benjamin Sanchez-Lengeling, Emily Reif, Adam Pearce, and Alexander~B.
+  Wiltschko.
+\newblock A gentle introduction to graph neural networks.
+\newblock {\em Distill}, 2021.
+\newblock https://distill.pub/2021/gnn-intro.
+
+\bibitem{scardapane2017group}
+Simone Scardapane, Danilo Comminiello, Amir Hussain, and Aurelio Uncini.
+\newblock Group sparse regularization for deep neural networks.
+\newblock {\em Neurocomputing}, 241:81--89, 2017.
+
+\bibitem{srivastava2014dropout}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {\em The journal of machine learning research}, 15(1):1929--1958,
+  2014.
+
+\bibitem{tian2020evolutionary}
+Haiman Tian, Shu-Ching Chen, and Mei-Ling Shyu.
+\newblock Evolutionary programming based deep learning feature selection and
+  network construction for visual data classification.
+\newblock {\em Information systems frontiers}, 22:1053--1066, 2020.
+
+\bibitem{veličković2018graph}
+Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
+  Liò, and Yoshua Bengio.
+\newblock Graph attention networks, 2018.
+
+\bibitem{walters2019met}
+David Walters, Anthony~J Baran, Ian Boutle, Malcolm Brooks, Paul Earnshaw, John
+  Edwards, Kalli Furtado, Peter Hill, Adrian Lock, James Manners, et~al.
+\newblock The met office unified model global atmosphere 7.0/7.1 and jules
+  global land 7.0 configurations.
+\newblock {\em Geoscientific Model Development}, 12(5):1909--1963, 2019.
+
+\bibitem{wen2016learning}
+Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li.
+\newblock Learning structured sparsity in deep neural networks.
+\newblock {\em Advances in neural information processing systems}, 29, 2016.
+
+\bibitem{xu2022chemistry}
+Katherine Xu and Janice Lan.
+\newblock Chemistry insights for large pretrained {GNN}s.
+\newblock In {\em NeurIPS 2022 AI for Science: Progress and Promises}, 2022.
+
+\bibitem{young2018recent}
+Tom Young, Devamanyu Hazarika, Soujanya Poria, and Erik Cambria.
+\newblock Recent trends in deep learning based natural language processing.
+\newblock {\em ieee Computational intelligenCe magazine}, 13(3):55--75, 2018.
+
+\bibitem{pmlr-v97-yu19a}
+Yue Yu, Jie Chen, Tian Gao, and Mo~Yu.
+\newblock {DAG}-{GNN}: {DAG} structure learning with graph neural networks.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, {\em
+  Proceedings of the 36th International Conference on Machine Learning},
+  volume~97 of {\em Proceedings of Machine Learning Research}, pages
+  7154--7163. PMLR, 09--15 Jun 2019.
+
+\bibitem{zhang2020revisiting}
+Muhan Zhang, Pan Li, Yinglong Xia, Kai Wang, and Long Jin.
+\newblock Revisiting graph neural networks for link prediction.
+\newblock 2020.
+
+\end{thebibliography}

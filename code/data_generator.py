@@ -23,7 +23,7 @@ class ssp_data():
     def init_edge_list(self, n):
         self.edge_index = []
         for i in range(n):
-            for j in range(i, n):
+            for j in range(n):
                 if i != j:
                     self.edge_index.append([i, j])
         self.edge_index = torch.tensor(self.edge_index, dtype=torch.long)
@@ -55,24 +55,28 @@ class ssp_data():
         df = data.to_dataframe().reset_index()
         # df = df.query('lat == -43.125 & lat == 288.750')
         df = df.query('lat >= -44 & lat <= -12 & lon >= 288 & lon <= 336')
-        ret = df.loc[(df['time'].dt.year > 1960) & (df['time'].dt.year < 1980), ['time', 'lat', 'lon', 'tas']]
+        ret = df.loc[(df['time'].dt.year >= 1960) & (df['time'].dt.year <= 1980), ['time', 'lat', 'lon', 'tas']]
 
         return ret
     
     def test_train_split(self, p=74100):
         df = self.x.drop(columns=['time', 'lat', 'lon'], axis=1)
-        self.x_train = df[0:p]
-        self.x_test = df[p:]
-        self.y_train = df[0:p]
-        self.y_test = df[p:]
+        # self.x_train = df[0:p]
+        # self.x_test = df[p:]
+        # self.y_train = df[0:p]
+        # self.y_test = df[p:]
 
-        self.x_train = self.create_tensors(self.x_train)
-        self.y_train = self.create_tensors(self.y_train)
-        self.train_data = torch_geometric.data.Data(x=self.x_train, edge_index=self.edge_index.t().contiguous(), y=self.y_train)
+        # self.x_train = self.create_tensors(self.x_train)
+        # self.y_train = self.create_tensors(self.y_train)
+        # self.x_test = self.create_tensors(self.x_test)
+        # self.y_test = self.create_tensors(self.y_test)
 
-        self.x_test = self.create_tensors(self.x_test)
-        self.y_test = self.create_tensors(self.y_test)
-        self.test_data = torch_geometric.data.Data(x=self.x_test, edge_index=self.edge_index.t().contiguous(), y=self.y_test)
+        # self.train_data = torch_geometric.data.Data(x=self.x_train, edge_index=self.edge_index.t().contiguous(), y=self.y_train)
+        # self.test_data = torch_geometric.data.Data(x=self.x_test, edge_index=self.edge_index.t().contiguous(), y=self.y_test)
+
+        self.x_train = self.create_tensors(df).transpose(0, 1)
+        self.y_train = self.create_tensors(self.y)
+        self.test_data = torch_geometric.data.Data(x=self.x_train, edge_index=self.edge_index.t().contiguous(), y=self.y_train)
 
     
     def get_device(self):
@@ -84,12 +88,13 @@ class ssp_data():
 
     def create_tensors(self, df):
         device = self.get_device()
-        return torch.from_numpy(df.values).transpose(0, 1).float().to(device)
+        return torch.from_numpy(df.values).float().to(device)
     
     def to_pickle(self, name='data_pickle'):
         file = open(name, 'wb')
         pickle.dump(self, file)
         file.close()
+        print(f'File saved as {name}')
     
     # def mini_graphs(self):
     #     df = self.x

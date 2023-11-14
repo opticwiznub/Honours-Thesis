@@ -6,6 +6,15 @@ G.~Abramowitz and C.~H. Bishop.
   of cmip projections.
 \newblock {\em Journal of Climate}, 28(6):2332 -- 2348, 2015.
 
+\bibitem{adcroft2019gfdl}
+Alistair Adcroft, Whit Anderson, V~Balaji, Chris Blanton, Mitchell Bushuk,
+  Carolina~O Dufour, John~P Dunne, Stephen~M Griffies, Robert Hallberg,
+  Matthew~J Harrison, et~al.
+\newblock The gfdl global ocean and sea ice model om4. 0: Model description and
+  simulation features.
+\newblock {\em Journal of Advances in Modeling Earth Systems},
+  11(10):3167--3211, 2019.
+
 \bibitem{adeel2020contextual}
 Ahsan Adeel, Mandar Gogate, and Amir Hussain.
 \newblock Contextual deep learning-based audio-visual switching for speech
@@ -19,6 +28,14 @@ Laith Alzubaidi, Jinglan Zhang, Amjad~J Humaidi, Ayad Al-Dujaili, Ye~Duan,
 \newblock Review of deep learning: Concepts, cnn architectures, challenges,
   applications, future directions.
 \newblock {\em Journal of big Data}, 8:1--74, 2021.
+
+\bibitem{bi2020configuration}
+Daohua Bi, Martin Dix, Simon Marsland, Siobhan O’farrell, Arnold Sullivan,
+  Roger Bodman, Rachel Law, Ian Harman, Jhan Srbinovsky, Harun~A Rashid, et~al.
+\newblock Configuration and spin-up of access-cm2, the new generation
+  australian community climate and earth system simulator coupled model.
+\newblock {\em Journal of Southern Hemisphere Earth Systems Science},
+  70(1):225--251, 2020.
 
 \bibitem{Cao_Gu_2020}
 Yuan Cao and Quanquan Gu.
@@ -91,6 +108,14 @@ D.~H. Hubel and T.~N. Wiesel.
   in the cat’s visual cortex.
 \newblock {\em The Journal of Physiology}, 160(1):106–154, 1962.
 
+\bibitem{hunke2010cice}
+Elizabeth~C Hunke, William~H Lipscomb, Adrian~K Turner, Nicole Jeffery, and
+  Scott Elliott.
+\newblock Cice: the los alamos sea ice model documentation and software
+  user’s manual version 4.1 la-cc-06-012.
+\newblock {\em T-3 Fluid Dynamics Group, Los Alamos National Laboratory},
+  675:500, 2010.
+
 \bibitem{inmon2007tapping}
 W.H. Inmon and A.~Nesavich.
 \newblock {\em Tapping into Unstructured Data: Integrating Unstructured Data
@@ -138,6 +163,13 @@ Max Kulinich.
 \newblock {\em A Markov chain method for weighting climate model ensembles and
   uncertainty estimation on spatially explicit data}.
 \newblock PhD thesis, UNSW, 2022.
+
+\bibitem{law2012community}
+Rachel Law, Michael Raupach, Gabriel Abramowitz, Imtiaz Dharssi, Vanessa
+  Haverd, Andrew Pitman, Luigi Renzullo, Albert Van~Dijk, and Yingping Wang.
+\newblock {\em The Community Atmosphere Biosphere Land Exchange (CABLE) model
+  Roadmap for 2012-2017}.
+\newblock Centre for Australian Weather and Climate Research, 2012.
 
 \bibitem{lee2021future}
 June-Yi Lee, Jochem Marotzke, Govindasamy Bala, Long Cao, Susanna Corti, John~P
@@ -285,6 +317,13 @@ Haiman Tian, Shu-Ching Chen, and Mei-Ling Shyu.
 Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
   Liò, and Yoshua Bengio.
 \newblock Graph attention networks, 2018.
+
+\bibitem{walters2019met}
+David Walters, Anthony~J Baran, Ian Boutle, Malcolm Brooks, Paul Earnshaw, John
+  Edwards, Kalli Furtado, Peter Hill, Adrian Lock, James Manners, et~al.
+\newblock The met office unified model global atmosphere 7.0/7.1 and jules
+  global land 7.0 configurations.
+\newblock {\em Geoscientific Model Development}, 12(5):1909--1963, 2019.
 
 \bibitem{wen2016learning}
 Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li.

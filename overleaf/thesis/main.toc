@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {Chapter 1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Climate Models}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Ensemble Models}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Machine Learning}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Sparsification of Deep Learning}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Motivation}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Outline}{6}{section.1.6}%
+\contentsline {chapter}{\numberline {Chapter 2}Methods and Related Techniques}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Deep Learning}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Graph Neural Networks}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Sparsification of Graph Neural Networks}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Variational Autoencoder}{13}{section.2.4}%
+\contentsline {chapter}{\numberline {Chapter 3}Framework}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Climate Models}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Dataset}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Exploratory Data Analysis}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Problem Formulation}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Implementation}{18}{section.3.5}%
+\contentsline {chapter}{\numberline {Chapter 4}Results}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Model verification}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Model results}{19}{section.4.2}%
+\contentsline {chapter}{\numberline {Chapter 5}Discussion}{20}{chapter.5}%
+\contentsline {chapter}{\numberline {Chapter 6}Appendix}{21}{chapter.6}%
+\contentsline {chapter}{References}{22}{chapter.6}%

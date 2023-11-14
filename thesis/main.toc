@@ -9,17 +9,16 @@
 \contentsline {section}{\numberline {2.1}Deep Learning}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Graph Neural Networks}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Sparsification of Graph Neural Networks}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Variational Autoencoder}{12}{section.2.4}%
-\contentsline {chapter}{\numberline {Chapter 3}Framework}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Climate Models}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Dataset}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Exploratory Data Analysis}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Problem Formulation}{16}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Computational features}{17}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Implementation}{17}{section.3.6}%
-\contentsline {chapter}{\numberline {Chapter 4}Results}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Model verification}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Model results}{18}{section.4.2}%
-\contentsline {chapter}{\numberline {Chapter 5}Discussion}{19}{chapter.5}%
-\contentsline {chapter}{\numberline {Chapter 6}Appendix}{20}{chapter.6}%
-\contentsline {chapter}{References}{21}{chapter.6}%
+\contentsline {section}{\numberline {2.4}Variational Autoencoder}{13}{section.2.4}%
+\contentsline {chapter}{\numberline {Chapter 3}Framework}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Climate Models}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Dataset}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Exploratory Data Analysis}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Problem Formulation}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Implementation}{18}{section.3.5}%
+\contentsline {chapter}{\numberline {Chapter 4}Results}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Model verification}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Model results}{19}{section.4.2}%
+\contentsline {chapter}{\numberline {Chapter 5}Discussion}{20}{chapter.5}%
+\contentsline {chapter}{\numberline {Chapter 6}Appendix}{21}{chapter.6}%
+\contentsline {chapter}{References}{22}{chapter.6}%
